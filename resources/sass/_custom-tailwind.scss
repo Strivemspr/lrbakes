@@ -1,0 +1,43 @@
+// Links
+.link-default {
+    @apply text-sm font-bold p-3 text-black-DEFAULT transition duration-500 transform;
+
+    // @media screen and (max-width:768px){
+    //     @apply bg-primary-DEFAULT;
+    // }
+
+    &:hover {
+        @apply text-primary-light -translate-y-1;
+    }
+}
+
+// Buttons
+
+.btn {
+    @apply text-white bg-primary-DEFAULT text-sm font-bold transition duration-500 transform cursor-pointer;
+
+    &:hover {
+        @apply bg-primary-light -translate-y-1;
+    }
+}
+
+.btn-small {
+    @apply p-3;
+}
+
+// Icons
+
+.icon {
+    @apply transform text-black-DEFAULT transition duration-500 cursor-pointer;
+
+    &:hover {
+        @apply text-primary-light -translate-y-1;
+    }
+}
+
+// Banner
+
+.banner {
+    @apply  bg-primary-DEFAULT flex;
+}
+
