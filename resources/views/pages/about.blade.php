@@ -5,4 +5,13 @@
 @section('content')
     <h1>About</h1>
 
+    {{-- FAQ --}}
+    @include('includes.faq')
+
+    {{-- Newsletter --}}
+    @include('includes.newsletter')
+
+    {{-- Footer --}}
+    @include('includes.footer') 
+
 @endsection

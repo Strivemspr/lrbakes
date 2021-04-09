@@ -19,3 +19,4 @@ Route::get('/home', [PagesController::class, 'index']);
 Route::get('/about', [PagesController::class, 'about']);
 Route::get('/gallery', [PagesController::class, 'gallery']);
 Route::get('/contact', [PagesController::class, 'contact']);
+Route::get('/services/{service}', [PagesController::class, 'services']);

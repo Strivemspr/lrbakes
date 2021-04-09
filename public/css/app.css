@@ -2494,6 +2494,30 @@ video {
   margin-left: calc(24rem * calc(1 - var(--space-x-reverse)));
 }
 
+.space-y-102 > :not(template) ~ :not(template){
+  --space-y-reverse: 0;
+  margin-top: calc(28rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(28rem * var(--space-y-reverse));
+}
+
+.space-x-102 > :not(template) ~ :not(template){
+  --space-x-reverse: 0;
+  margin-right: calc(28rem * var(--space-x-reverse));
+  margin-left: calc(28rem * calc(1 - var(--space-x-reverse)));
+}
+
+.space-y-200 > :not(template) ~ :not(template){
+  --space-y-reverse: 0;
+  margin-top: calc(62rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(62rem * var(--space-y-reverse));
+}
+
+.space-x-200 > :not(template) ~ :not(template){
+  --space-x-reverse: 0;
+  margin-right: calc(62rem * var(--space-x-reverse));
+  margin-left: calc(62rem * calc(1 - var(--space-x-reverse)));
+}
+
 .space-y-px > :not(template) ~ :not(template){
   --space-y-reverse: 0;
   margin-top: calc(1px * calc(1 - var(--space-y-reverse)));
@@ -2878,6 +2902,30 @@ video {
   margin-left: calc(100% * calc(1 - var(--space-x-reverse)));
 }
 
+.space-y-95\% > :not(template) ~ :not(template){
+  --space-y-reverse: 0;
+  margin-top: calc(95% * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(95% * var(--space-y-reverse));
+}
+
+.space-x-95\% > :not(template) ~ :not(template){
+  --space-x-reverse: 0;
+  margin-right: calc(95% * var(--space-x-reverse));
+  margin-left: calc(95% * calc(1 - var(--space-x-reverse)));
+}
+
+.space-y-98\% > :not(template) ~ :not(template){
+  --space-y-reverse: 0;
+  margin-top: calc(98% * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(98% * var(--space-y-reverse));
+}
+
+.space-x-98\% > :not(template) ~ :not(template){
+  --space-x-reverse: 0;
+  margin-right: calc(98% * var(--space-x-reverse));
+  margin-left: calc(98% * calc(1 - var(--space-x-reverse)));
+}
+
 .-space-y-1 > :not(template) ~ :not(template){
   --space-y-reverse: 0;
   margin-top: calc(-0.25rem * calc(1 - var(--space-y-reverse)));
@@ -3248,6 +3296,30 @@ video {
   --space-x-reverse: 0;
   margin-right: calc(-24rem * var(--space-x-reverse));
   margin-left: calc(-24rem * calc(1 - var(--space-x-reverse)));
+}
+
+.-space-y-102 > :not(template) ~ :not(template){
+  --space-y-reverse: 0;
+  margin-top: calc(-28rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(-28rem * var(--space-y-reverse));
+}
+
+.-space-x-102 > :not(template) ~ :not(template){
+  --space-x-reverse: 0;
+  margin-right: calc(-28rem * var(--space-x-reverse));
+  margin-left: calc(-28rem * calc(1 - var(--space-x-reverse)));
+}
+
+.-space-y-200 > :not(template) ~ :not(template){
+  --space-y-reverse: 0;
+  margin-top: calc(-62rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(-62rem * var(--space-y-reverse));
+}
+
+.-space-x-200 > :not(template) ~ :not(template){
+  --space-x-reverse: 0;
+  margin-right: calc(-62rem * var(--space-x-reverse));
+  margin-left: calc(-62rem * calc(1 - var(--space-x-reverse)));
 }
 
 .-space-y-px > :not(template) ~ :not(template){
@@ -3632,6 +3704,30 @@ video {
   --space-x-reverse: 0;
   margin-right: calc(-100% * var(--space-x-reverse));
   margin-left: calc(-100% * calc(1 - var(--space-x-reverse)));
+}
+
+.-space-y-95\% > :not(template) ~ :not(template){
+  --space-y-reverse: 0;
+  margin-top: calc(-95% * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(-95% * var(--space-y-reverse));
+}
+
+.-space-x-95\% > :not(template) ~ :not(template){
+  --space-x-reverse: 0;
+  margin-right: calc(-95% * var(--space-x-reverse));
+  margin-left: calc(-95% * calc(1 - var(--space-x-reverse)));
+}
+
+.-space-y-98\% > :not(template) ~ :not(template){
+  --space-y-reverse: 0;
+  margin-top: calc(-98% * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(-98% * var(--space-y-reverse));
+}
+
+.-space-x-98\% > :not(template) ~ :not(template){
+  --space-x-reverse: 0;
+  margin-right: calc(-98% * var(--space-x-reverse));
+  margin-left: calc(-98% * calc(1 - var(--space-x-reverse)));
 }
 
 .space-y-reverse > :not(template) ~ :not(template){
@@ -4271,6 +4367,30 @@ video {
 
 .bg-gradient-to-tl{
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
+}
+
+.bg-newsletter-pattern{
+  background-image: url('/images/newsletter.jpg');
+}
+
+.bg-cakes-pattern{
+  background-image: url('/images/service1.jpg');
+}
+
+.bg-cheesecakes-pattern{
+  background-image: url('/images/service2.jpg');
+}
+
+.bg-cupcakes-pattern{
+  background-image: url('/images/service3.jpg');
+}
+
+.bg-puligi-pattern{
+  background-image: url('/images/service4.jpg');
+}
+
+.bg-gallery-pattern{
+  background-image: url('/images/service4.jpg');
 }
 
 .from-transparent{
@@ -6191,6 +6311,10 @@ video {
   font-family: Poppins, sans-serif;
 }
 
+.font-courgette{
+  font-family: Courgette, cursive;
+}
+
 .font-hairline{
   font-weight: 100;
 }
@@ -6427,6 +6551,14 @@ video {
   height: 24rem;
 }
 
+.h-102{
+  height: 28rem;
+}
+
+.h-200{
+  height: 62rem;
+}
+
 .h-auto{
   height: auto;
 }
@@ -6557,6 +6689,14 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-95\%{
+  height: 95%;
+}
+
+.h-98\%{
+  height: 98%;
 }
 
 .h-screen{
@@ -6807,6 +6947,14 @@ video {
   margin: 24rem;
 }
 
+.m-102{
+  margin: 28rem;
+}
+
+.m-200{
+  margin: 62rem;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -6939,6 +7087,14 @@ video {
   margin: 100%;
 }
 
+.m-95\%{
+  margin: 95%;
+}
+
+.m-98\%{
+  margin: 98%;
+}
+
 .-m-1{
   margin: -0.25rem;
 }
@@ -7061,6 +7217,14 @@ video {
 
 .-m-96{
   margin: -24rem;
+}
+
+.-m-102{
+  margin: -28rem;
+}
+
+.-m-200{
+  margin: -62rem;
 }
 
 .-m-px{
@@ -7189,6 +7353,14 @@ video {
 
 .-m-full{
   margin: -100%;
+}
+
+.-m-95\%{
+  margin: -95%;
+}
+
+.-m-98\%{
+  margin: -98%;
 }
 
 .my-0{
@@ -7509,6 +7681,26 @@ video {
 .mx-96{
   margin-left: 24rem;
   margin-right: 24rem;
+}
+
+.my-102{
+  margin-top: 28rem;
+  margin-bottom: 28rem;
+}
+
+.mx-102{
+  margin-left: 28rem;
+  margin-right: 28rem;
+}
+
+.my-200{
+  margin-top: 62rem;
+  margin-bottom: 62rem;
+}
+
+.mx-200{
+  margin-left: 62rem;
+  margin-right: 62rem;
 }
 
 .my-auto{
@@ -7841,6 +8033,26 @@ video {
   margin-right: 100%;
 }
 
+.my-95\%{
+  margin-top: 95%;
+  margin-bottom: 95%;
+}
+
+.mx-95\%{
+  margin-left: 95%;
+  margin-right: 95%;
+}
+
+.my-98\%{
+  margin-top: 98%;
+  margin-bottom: 98%;
+}
+
+.mx-98\%{
+  margin-left: 98%;
+  margin-right: 98%;
+}
+
 .-my-1{
   margin-top: -0.25rem;
   margin-bottom: -0.25rem;
@@ -8149,6 +8361,26 @@ video {
 .-mx-96{
   margin-left: -24rem;
   margin-right: -24rem;
+}
+
+.-my-102{
+  margin-top: -28rem;
+  margin-bottom: -28rem;
+}
+
+.-mx-102{
+  margin-left: -28rem;
+  margin-right: -28rem;
+}
+
+.-my-200{
+  margin-top: -62rem;
+  margin-bottom: -62rem;
+}
+
+.-mx-200{
+  margin-left: -62rem;
+  margin-right: -62rem;
 }
 
 .-my-px{
@@ -8469,6 +8701,26 @@ video {
 .-mx-full{
   margin-left: -100%;
   margin-right: -100%;
+}
+
+.-my-95\%{
+  margin-top: -95%;
+  margin-bottom: -95%;
+}
+
+.-mx-95\%{
+  margin-left: -95%;
+  margin-right: -95%;
+}
+
+.-my-98\%{
+  margin-top: -98%;
+  margin-bottom: -98%;
+}
+
+.-mx-98\%{
+  margin-left: -98%;
+  margin-right: -98%;
 }
 
 .mt-0{
@@ -8981,6 +9233,38 @@ video {
 
 .ml-96{
   margin-left: 24rem;
+}
+
+.mt-102{
+  margin-top: 28rem;
+}
+
+.mr-102{
+  margin-right: 28rem;
+}
+
+.mb-102{
+  margin-bottom: 28rem;
+}
+
+.ml-102{
+  margin-left: 28rem;
+}
+
+.mt-200{
+  margin-top: 62rem;
+}
+
+.mr-200{
+  margin-right: 62rem;
+}
+
+.mb-200{
+  margin-bottom: 62rem;
+}
+
+.ml-200{
+  margin-left: 62rem;
 }
 
 .mt-auto{
@@ -9511,6 +9795,38 @@ video {
   margin-left: 100%;
 }
 
+.mt-95\%{
+  margin-top: 95%;
+}
+
+.mr-95\%{
+  margin-right: 95%;
+}
+
+.mb-95\%{
+  margin-bottom: 95%;
+}
+
+.ml-95\%{
+  margin-left: 95%;
+}
+
+.mt-98\%{
+  margin-top: 98%;
+}
+
+.mr-98\%{
+  margin-right: 98%;
+}
+
+.mb-98\%{
+  margin-bottom: 98%;
+}
+
+.ml-98\%{
+  margin-left: 98%;
+}
+
 .-mt-1{
   margin-top: -0.25rem;
 }
@@ -10005,6 +10321,38 @@ video {
 
 .-ml-96{
   margin-left: -24rem;
+}
+
+.-mt-102{
+  margin-top: -28rem;
+}
+
+.-mr-102{
+  margin-right: -28rem;
+}
+
+.-mb-102{
+  margin-bottom: -28rem;
+}
+
+.-ml-102{
+  margin-left: -28rem;
+}
+
+.-mt-200{
+  margin-top: -62rem;
+}
+
+.-mr-200{
+  margin-right: -62rem;
+}
+
+.-mb-200{
+  margin-bottom: -62rem;
+}
+
+.-ml-200{
+  margin-left: -62rem;
 }
 
 .-mt-px{
@@ -10519,6 +10867,38 @@ video {
   margin-left: -100%;
 }
 
+.-mt-95\%{
+  margin-top: -95%;
+}
+
+.-mr-95\%{
+  margin-right: -95%;
+}
+
+.-mb-95\%{
+  margin-bottom: -95%;
+}
+
+.-ml-95\%{
+  margin-left: -95%;
+}
+
+.-mt-98\%{
+  margin-top: -98%;
+}
+
+.-mr-98\%{
+  margin-right: -98%;
+}
+
+.-mb-98\%{
+  margin-bottom: -98%;
+}
+
+.-ml-98\%{
+  margin-left: -98%;
+}
+
 .max-h-0{
   max-height: 0;
 }
@@ -10645,6 +11025,14 @@ video {
 
 .max-h-96{
   max-height: 24rem;
+}
+
+.max-h-102{
+  max-height: 28rem;
+}
+
+.max-h-200{
+  max-height: 62rem;
 }
 
 .max-h-screen{
@@ -10779,6 +11167,14 @@ video {
   max-height: 100%;
 }
 
+.max-h-95\%{
+  max-height: 95%;
+}
+
+.max-h-98\%{
+  max-height: 98%;
+}
+
 .max-w-0{
   max-width: 0rem;
 }
@@ -10865,6 +11261,10 @@ video {
 
 .max-w-screen-xl{
   max-width: 1280px;
+}
+
+.max-w-95\%{
+  max-width: 95%;
 }
 
 .min-h-0{
@@ -11342,6 +11742,14 @@ video {
   padding: 24rem;
 }
 
+.p-102{
+  padding: 28rem;
+}
+
+.p-200{
+  padding: 62rem;
+}
+
 .p-px{
   padding: 1px;
 }
@@ -11468,6 +11876,14 @@ video {
 
 .p-full{
   padding: 100%;
+}
+
+.p-95\%{
+  padding: 95%;
+}
+
+.p-98\%{
+  padding: 98%;
 }
 
 .py-0{
@@ -11790,6 +12206,26 @@ video {
   padding-right: 24rem;
 }
 
+.py-102{
+  padding-top: 28rem;
+  padding-bottom: 28rem;
+}
+
+.px-102{
+  padding-left: 28rem;
+  padding-right: 28rem;
+}
+
+.py-200{
+  padding-top: 62rem;
+  padding-bottom: 62rem;
+}
+
+.px-200{
+  padding-left: 62rem;
+  padding-right: 62rem;
+}
+
 .py-px{
   padding-top: 1px;
   padding-bottom: 1px;
@@ -12108,6 +12544,26 @@ video {
 .px-full{
   padding-left: 100%;
   padding-right: 100%;
+}
+
+.py-95\%{
+  padding-top: 95%;
+  padding-bottom: 95%;
+}
+
+.px-95\%{
+  padding-left: 95%;
+  padding-right: 95%;
+}
+
+.py-98\%{
+  padding-top: 98%;
+  padding-bottom: 98%;
+}
+
+.px-98\%{
+  padding-left: 98%;
+  padding-right: 98%;
 }
 
 .pt-0{
@@ -12622,6 +13078,38 @@ video {
   padding-left: 24rem;
 }
 
+.pt-102{
+  padding-top: 28rem;
+}
+
+.pr-102{
+  padding-right: 28rem;
+}
+
+.pb-102{
+  padding-bottom: 28rem;
+}
+
+.pl-102{
+  padding-left: 28rem;
+}
+
+.pt-200{
+  padding-top: 62rem;
+}
+
+.pr-200{
+  padding-right: 62rem;
+}
+
+.pb-200{
+  padding-bottom: 62rem;
+}
+
+.pl-200{
+  padding-left: 62rem;
+}
+
 .pt-px{
   padding-top: 1px;
 }
@@ -13132,6 +13620,38 @@ video {
 
 .pl-full{
   padding-left: 100%;
+}
+
+.pt-95\%{
+  padding-top: 95%;
+}
+
+.pr-95\%{
+  padding-right: 95%;
+}
+
+.pb-95\%{
+  padding-bottom: 95%;
+}
+
+.pl-95\%{
+  padding-left: 95%;
+}
+
+.pt-98\%{
+  padding-top: 98%;
+}
+
+.pr-98\%{
+  padding-right: 98%;
+}
+
+.pb-98\%{
+  padding-bottom: 98%;
+}
+
+.pl-98\%{
+  padding-left: 98%;
 }
 
 .placeholder-transparent::-moz-placeholder{
@@ -13855,6 +14375,20 @@ video {
   left: 24rem;
 }
 
+.inset-102{
+  top: 28rem;
+  right: 28rem;
+  bottom: 28rem;
+  left: 28rem;
+}
+
+.inset-200{
+  top: 62rem;
+  right: 62rem;
+  bottom: 62rem;
+  left: 62rem;
+}
+
 .inset-auto{
   top: auto;
   right: auto;
@@ -14084,6 +14618,20 @@ video {
   right: 100%;
   bottom: 100%;
   left: 100%;
+}
+
+.inset-95\%{
+  top: 95%;
+  right: 95%;
+  bottom: 95%;
+  left: 95%;
+}
+
+.inset-98\%{
+  top: 98%;
+  right: 98%;
+  bottom: 98%;
+  left: 98%;
 }
 
 .inset-y-0{
@@ -14404,6 +14952,26 @@ video {
 .inset-x-96{
   right: 24rem;
   left: 24rem;
+}
+
+.inset-y-102{
+  top: 28rem;
+  bottom: 28rem;
+}
+
+.inset-x-102{
+  right: 28rem;
+  left: 28rem;
+}
+
+.inset-y-200{
+  top: 62rem;
+  bottom: 62rem;
+}
+
+.inset-x-200{
+  right: 62rem;
+  left: 62rem;
 }
 
 .inset-y-auto{
@@ -14734,6 +15302,26 @@ video {
 .inset-x-full{
   right: 100%;
   left: 100%;
+}
+
+.inset-y-95\%{
+  top: 95%;
+  bottom: 95%;
+}
+
+.inset-x-95\%{
+  right: 95%;
+  left: 95%;
+}
+
+.inset-y-98\%{
+  top: 98%;
+  bottom: 98%;
+}
+
+.inset-x-98\%{
+  right: 98%;
+  left: 98%;
 }
 
 .top-0{
@@ -15246,6 +15834,38 @@ video {
 
 .left-96{
   left: 24rem;
+}
+
+.top-102{
+  top: 28rem;
+}
+
+.right-102{
+  right: 28rem;
+}
+
+.bottom-102{
+  bottom: 28rem;
+}
+
+.left-102{
+  left: 28rem;
+}
+
+.top-200{
+  top: 62rem;
+}
+
+.right-200{
+  right: 62rem;
+}
+
+.bottom-200{
+  bottom: 62rem;
+}
+
+.left-200{
+  left: 62rem;
 }
 
 .top-auto{
@@ -15774,6 +16394,38 @@ video {
 
 .left-full{
   left: 100%;
+}
+
+.top-95\%{
+  top: 95%;
+}
+
+.right-95\%{
+  right: 95%;
+}
+
+.bottom-95\%{
+  bottom: 95%;
+}
+
+.left-95\%{
+  left: 95%;
+}
+
+.top-98\%{
+  top: 98%;
+}
+
+.right-98\%{
+  right: 98%;
+}
+
+.bottom-98\%{
+  bottom: 98%;
+}
+
+.left-98\%{
+  left: 98%;
 }
 
 .resize-none{
@@ -17114,6 +17766,14 @@ video {
   width: 24rem;
 }
 
+.w-102{
+  width: 28rem;
+}
+
+.w-200{
+  width: 62rem;
+}
+
 .w-auto{
   width: auto;
 }
@@ -17246,6 +17906,14 @@ video {
   width: 100%;
 }
 
+.w-95\%{
+  width: 95%;
+}
+
+.w-98\%{
+  width: 98%;
+}
+
 .w-screen{
   width: 100vw;
 }
@@ -17290,6 +17958,10 @@ video {
   z-index: auto;
 }
 
+.-z-10{
+  z-index: -10;
+}
+
 .focus-within\:z-0:focus-within{
   z-index: 0;
 }
@@ -17318,6 +17990,10 @@ video {
   z-index: auto;
 }
 
+.focus-within\:-z-10:focus-within{
+  z-index: -10;
+}
+
 .focus\:z-0:focus{
   z-index: 0;
 }
@@ -17344,6 +18020,10 @@ video {
 
 .focus\:z-auto:focus{
   z-index: auto;
+}
+
+.focus\:-z-10:focus{
+  z-index: -10;
 }
 
 .gap-0{
@@ -17506,6 +18186,16 @@ video {
   gap: 24rem;
 }
 
+.gap-102{
+  grid-gap: 28rem;
+  gap: 28rem;
+}
+
+.gap-200{
+  grid-gap: 62rem;
+  gap: 62rem;
+}
+
 .gap-px{
   grid-gap: 1px;
   gap: 1px;
@@ -17664,6 +18354,16 @@ video {
 .gap-full{
   grid-gap: 100%;
   gap: 100%;
+}
+
+.gap-95\%{
+  grid-gap: 95%;
+  gap: 95%;
+}
+
+.gap-98\%{
+  grid-gap: 98%;
+  gap: 98%;
 }
 
 .col-gap-0{
@@ -17858,6 +18558,18 @@ video {
        column-gap: 24rem;
 }
 
+.col-gap-102{
+  grid-column-gap: 28rem;
+  -moz-column-gap: 28rem;
+       column-gap: 28rem;
+}
+
+.col-gap-200{
+  grid-column-gap: 62rem;
+  -moz-column-gap: 62rem;
+       column-gap: 62rem;
+}
+
 .col-gap-px{
   grid-column-gap: 1px;
   -moz-column-gap: 1px;
@@ -18048,6 +18760,18 @@ video {
   grid-column-gap: 100%;
   -moz-column-gap: 100%;
        column-gap: 100%;
+}
+
+.col-gap-95\%{
+  grid-column-gap: 95%;
+  -moz-column-gap: 95%;
+       column-gap: 95%;
+}
+
+.col-gap-98\%{
+  grid-column-gap: 98%;
+  -moz-column-gap: 98%;
+       column-gap: 98%;
 }
 
 .gap-x-0{
@@ -18242,6 +18966,18 @@ video {
        column-gap: 24rem;
 }
 
+.gap-x-102{
+  grid-column-gap: 28rem;
+  -moz-column-gap: 28rem;
+       column-gap: 28rem;
+}
+
+.gap-x-200{
+  grid-column-gap: 62rem;
+  -moz-column-gap: 62rem;
+       column-gap: 62rem;
+}
+
 .gap-x-px{
   grid-column-gap: 1px;
   -moz-column-gap: 1px;
@@ -18434,6 +19170,18 @@ video {
        column-gap: 100%;
 }
 
+.gap-x-95\%{
+  grid-column-gap: 95%;
+  -moz-column-gap: 95%;
+       column-gap: 95%;
+}
+
+.gap-x-98\%{
+  grid-column-gap: 98%;
+  -moz-column-gap: 98%;
+       column-gap: 98%;
+}
+
 .row-gap-0{
   grid-row-gap: 0;
   row-gap: 0;
@@ -18592,6 +19340,16 @@ video {
 .row-gap-96{
   grid-row-gap: 24rem;
   row-gap: 24rem;
+}
+
+.row-gap-102{
+  grid-row-gap: 28rem;
+  row-gap: 28rem;
+}
+
+.row-gap-200{
+  grid-row-gap: 62rem;
+  row-gap: 62rem;
 }
 
 .row-gap-px{
@@ -18754,6 +19512,16 @@ video {
   row-gap: 100%;
 }
 
+.row-gap-95\%{
+  grid-row-gap: 95%;
+  row-gap: 95%;
+}
+
+.row-gap-98\%{
+  grid-row-gap: 98%;
+  row-gap: 98%;
+}
+
 .gap-y-0{
   grid-row-gap: 0;
   row-gap: 0;
@@ -18914,6 +19682,16 @@ video {
   row-gap: 24rem;
 }
 
+.gap-y-102{
+  grid-row-gap: 28rem;
+  row-gap: 28rem;
+}
+
+.gap-y-200{
+  grid-row-gap: 62rem;
+  row-gap: 62rem;
+}
+
 .gap-y-px{
   grid-row-gap: 1px;
   row-gap: 1px;
@@ -19072,6 +19850,16 @@ video {
 .gap-y-full{
   grid-row-gap: 100%;
   row-gap: 100%;
+}
+
+.gap-y-95\%{
+  grid-row-gap: 95%;
+  row-gap: 95%;
+}
+
+.gap-y-98\%{
+  grid-row-gap: 98%;
+  row-gap: 98%;
 }
 
 .grid-flow-row{
@@ -20243,6 +21031,14 @@ video {
   --transform-translate-x: 24rem;
 }
 
+.translate-x-102{
+  --transform-translate-x: 28rem;
+}
+
+.translate-x-200{
+  --transform-translate-x: 62rem;
+}
+
 .translate-x-px{
   --transform-translate-x: 1px;
 }
@@ -20371,6 +21167,14 @@ video {
   --transform-translate-x: 100%;
 }
 
+.translate-x-95\%{
+  --transform-translate-x: 95%;
+}
+
+.translate-x-98\%{
+  --transform-translate-x: 98%;
+}
+
 .-translate-x-1{
   --transform-translate-x: -0.25rem;
 }
@@ -20493,6 +21297,14 @@ video {
 
 .-translate-x-96{
   --transform-translate-x: -24rem;
+}
+
+.-translate-x-102{
+  --transform-translate-x: -28rem;
+}
+
+.-translate-x-200{
+  --transform-translate-x: -62rem;
 }
 
 .-translate-x-px{
@@ -20623,6 +21435,14 @@ video {
   --transform-translate-x: -100%;
 }
 
+.-translate-x-95\%{
+  --transform-translate-x: -95%;
+}
+
+.-translate-x-98\%{
+  --transform-translate-x: -98%;
+}
+
 .translate-y-0{
   --transform-translate-y: 0;
 }
@@ -20749,6 +21569,14 @@ video {
 
 .translate-y-96{
   --transform-translate-y: 24rem;
+}
+
+.translate-y-102{
+  --transform-translate-y: 28rem;
+}
+
+.translate-y-200{
+  --transform-translate-y: 62rem;
 }
 
 .translate-y-px{
@@ -20879,6 +21707,14 @@ video {
   --transform-translate-y: 100%;
 }
 
+.translate-y-95\%{
+  --transform-translate-y: 95%;
+}
+
+.translate-y-98\%{
+  --transform-translate-y: 98%;
+}
+
 .-translate-y-1{
   --transform-translate-y: -0.25rem;
 }
@@ -21001,6 +21837,14 @@ video {
 
 .-translate-y-96{
   --transform-translate-y: -24rem;
+}
+
+.-translate-y-102{
+  --transform-translate-y: -28rem;
+}
+
+.-translate-y-200{
+  --transform-translate-y: -62rem;
 }
 
 .-translate-y-px{
@@ -21131,6 +21975,14 @@ video {
   --transform-translate-y: -100%;
 }
 
+.-translate-y-95\%{
+  --transform-translate-y: -95%;
+}
+
+.-translate-y-98\%{
+  --transform-translate-y: -98%;
+}
+
 .hover\:translate-x-0:hover{
   --transform-translate-x: 0;
 }
@@ -21257,6 +22109,14 @@ video {
 
 .hover\:translate-x-96:hover{
   --transform-translate-x: 24rem;
+}
+
+.hover\:translate-x-102:hover{
+  --transform-translate-x: 28rem;
+}
+
+.hover\:translate-x-200:hover{
+  --transform-translate-x: 62rem;
 }
 
 .hover\:translate-x-px:hover{
@@ -21387,6 +22247,14 @@ video {
   --transform-translate-x: 100%;
 }
 
+.hover\:translate-x-95\%:hover{
+  --transform-translate-x: 95%;
+}
+
+.hover\:translate-x-98\%:hover{
+  --transform-translate-x: 98%;
+}
+
 .hover\:-translate-x-1:hover{
   --transform-translate-x: -0.25rem;
 }
@@ -21509,6 +22377,14 @@ video {
 
 .hover\:-translate-x-96:hover{
   --transform-translate-x: -24rem;
+}
+
+.hover\:-translate-x-102:hover{
+  --transform-translate-x: -28rem;
+}
+
+.hover\:-translate-x-200:hover{
+  --transform-translate-x: -62rem;
 }
 
 .hover\:-translate-x-px:hover{
@@ -21639,6 +22515,14 @@ video {
   --transform-translate-x: -100%;
 }
 
+.hover\:-translate-x-95\%:hover{
+  --transform-translate-x: -95%;
+}
+
+.hover\:-translate-x-98\%:hover{
+  --transform-translate-x: -98%;
+}
+
 .hover\:translate-y-0:hover{
   --transform-translate-y: 0;
 }
@@ -21765,6 +22649,14 @@ video {
 
 .hover\:translate-y-96:hover{
   --transform-translate-y: 24rem;
+}
+
+.hover\:translate-y-102:hover{
+  --transform-translate-y: 28rem;
+}
+
+.hover\:translate-y-200:hover{
+  --transform-translate-y: 62rem;
 }
 
 .hover\:translate-y-px:hover{
@@ -21895,6 +22787,14 @@ video {
   --transform-translate-y: 100%;
 }
 
+.hover\:translate-y-95\%:hover{
+  --transform-translate-y: 95%;
+}
+
+.hover\:translate-y-98\%:hover{
+  --transform-translate-y: 98%;
+}
+
 .hover\:-translate-y-1:hover{
   --transform-translate-y: -0.25rem;
 }
@@ -22017,6 +22917,14 @@ video {
 
 .hover\:-translate-y-96:hover{
   --transform-translate-y: -24rem;
+}
+
+.hover\:-translate-y-102:hover{
+  --transform-translate-y: -28rem;
+}
+
+.hover\:-translate-y-200:hover{
+  --transform-translate-y: -62rem;
 }
 
 .hover\:-translate-y-px:hover{
@@ -22147,6 +23055,14 @@ video {
   --transform-translate-y: -100%;
 }
 
+.hover\:-translate-y-95\%:hover{
+  --transform-translate-y: -95%;
+}
+
+.hover\:-translate-y-98\%:hover{
+  --transform-translate-y: -98%;
+}
+
 .focus\:translate-x-0:focus{
   --transform-translate-x: 0;
 }
@@ -22273,6 +23189,14 @@ video {
 
 .focus\:translate-x-96:focus{
   --transform-translate-x: 24rem;
+}
+
+.focus\:translate-x-102:focus{
+  --transform-translate-x: 28rem;
+}
+
+.focus\:translate-x-200:focus{
+  --transform-translate-x: 62rem;
 }
 
 .focus\:translate-x-px:focus{
@@ -22403,6 +23327,14 @@ video {
   --transform-translate-x: 100%;
 }
 
+.focus\:translate-x-95\%:focus{
+  --transform-translate-x: 95%;
+}
+
+.focus\:translate-x-98\%:focus{
+  --transform-translate-x: 98%;
+}
+
 .focus\:-translate-x-1:focus{
   --transform-translate-x: -0.25rem;
 }
@@ -22525,6 +23457,14 @@ video {
 
 .focus\:-translate-x-96:focus{
   --transform-translate-x: -24rem;
+}
+
+.focus\:-translate-x-102:focus{
+  --transform-translate-x: -28rem;
+}
+
+.focus\:-translate-x-200:focus{
+  --transform-translate-x: -62rem;
 }
 
 .focus\:-translate-x-px:focus{
@@ -22655,6 +23595,14 @@ video {
   --transform-translate-x: -100%;
 }
 
+.focus\:-translate-x-95\%:focus{
+  --transform-translate-x: -95%;
+}
+
+.focus\:-translate-x-98\%:focus{
+  --transform-translate-x: -98%;
+}
+
 .focus\:translate-y-0:focus{
   --transform-translate-y: 0;
 }
@@ -22781,6 +23729,14 @@ video {
 
 .focus\:translate-y-96:focus{
   --transform-translate-y: 24rem;
+}
+
+.focus\:translate-y-102:focus{
+  --transform-translate-y: 28rem;
+}
+
+.focus\:translate-y-200:focus{
+  --transform-translate-y: 62rem;
 }
 
 .focus\:translate-y-px:focus{
@@ -22911,6 +23867,14 @@ video {
   --transform-translate-y: 100%;
 }
 
+.focus\:translate-y-95\%:focus{
+  --transform-translate-y: 95%;
+}
+
+.focus\:translate-y-98\%:focus{
+  --transform-translate-y: 98%;
+}
+
 .focus\:-translate-y-1:focus{
   --transform-translate-y: -0.25rem;
 }
@@ -23033,6 +23997,14 @@ video {
 
 .focus\:-translate-y-96:focus{
   --transform-translate-y: -24rem;
+}
+
+.focus\:-translate-y-102:focus{
+  --transform-translate-y: -28rem;
+}
+
+.focus\:-translate-y-200:focus{
+  --transform-translate-y: -62rem;
 }
 
 .focus\:-translate-y-px:focus{
@@ -23161,6 +24133,14 @@ video {
 
 .focus\:-translate-y-full:focus{
   --transform-translate-y: -100%;
+}
+
+.focus\:-translate-y-95\%:focus{
+  --transform-translate-y: -95%;
+}
+
+.focus\:-translate-y-98\%:focus{
+  --transform-translate-y: -98%;
 }
 
 .skew-x-0{
@@ -23681,8 +24661,29 @@ video {
   --transform-translate-y: -0.25rem;
 }
 
+.btn:active {
+  --bg-opacity: 1;
+  background-color: #FF6060;
+  background-color: rgba(255, 96, 96, var(--bg-opacity));
+  transition-duration: 75ms;
+}
+
+.btn-nohover:hover {
+  --bg-opacity: 1 !important;
+  background-color: #9D77EE !important;
+  background-color: rgba(157, 119, 238, var(--bg-opacity)) !important;
+  --transform-translate-y: 0 !important;
+}
+
 .btn-small {
   padding: 0.75rem;
+}
+
+.btn-large {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .icon {
@@ -23694,9 +24695,6 @@ video {
   --transform-scale-x: 1;
   --transform-scale-y: 1;
   transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
-  --text-opacity: 1;
-  color: #3C3C3C;
-  color: rgba(60, 60, 60, var(--text-opacity));
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   transition-duration: 500ms;
   cursor: pointer;
@@ -23709,11 +24707,251 @@ video {
   --transform-translate-y: -0.25rem;
 }
 
-.banner {
+.icon-dark {
+  --text-opacity: 1;
+  color: #3C3C3C;
+  color: rgba(60, 60, 60, var(--text-opacity));
+}
+
+.icon-light {
+  --text-opacity: 1;
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+.banner:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  --bg-opacity: 1;
+  background-color: #3C3C3C;
+  background-color: rgba(60, 60, 60, var(--bg-opacity));
+  opacity: 0.5;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  padding: 0;
+  font-family: Courgette, cursive;
+  font-size: 2.25rem;
+  position: relative;
+}
+
+.heading:before {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+  --transform-translate-y: 0.5rem;
+  width: 11rem;
+  height: 0.25rem;
   --bg-opacity: 1;
   background-color: #8F6ADD;
   background-color: rgba(143, 106, 221, var(--bg-opacity));
+}
+
+.heading-line-center:before {
+  left: 50%;
+  --transform-translate-x: -50%;
+}
+
+.heading-line-left:before {
+  left: 50%;
+  --transform-translate-x: -50%;
+}
+
+@media (min-width: 768px) {
+  .heading-line-left:before {
+    left: 0;
+    --transform-translate-x: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading-medium {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading-large {
+    font-size: 4rem;
+  }
+}
+
+.services-card {
   display: flex;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .services-card {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-card-image {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-card-info {
+    width: 50%;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-card:nth-child(even) .services-card-info {
+    order: 1;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-card:nth-child(even) .services-card-image {
+    order: 2;
+  }
+}
+
+.flower1 {
+  top: -100px;
+  left: -100px;
+  display: block;
+  position: absolute;
+}
+
+.flower2 {
+  left: -240px;
+  top: 60%;
+  transform: translateY(-40%);
+  display: block;
+  position: absolute;
+}
+
+.flower3 {
+  right: -180px;
+  top: 40%;
+  transform: translateY(-60%);
+  display: block;
+  position: absolute;
+}
+
+.flower4 {
+  bottom: -100px;
+  right: -100px;
+  display: block;
+  position: absolute;
+}
+
+.newsletter {
+  position: relative;
+}
+
+.newsletter:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  --bg-opacity: 1;
+  background-color: #3C3C3C;
+  background-color: rgba(60, 60, 60, var(--bg-opacity));
+  opacity: 0.5;
+}
+
+.footer .fa-caret-right {
+  --text-opacity: 1;
+  color: #ACACAC;
+  color: rgba(172, 172, 172, var(--text-opacity));
+}
+
+.footer .fa-caret-right:before {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .footer .fa-caret-right:before {
+    display: inline-block;
+    margin-right: 0.75rem;
+  }
+}
+
+.footer .link {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 200ms;
+}
+
+.footer .link:hover {
+  --text-opacity: 1;
+  color: #ACACAC;
+  color: rgba(172, 172, 172, var(--text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .footer-list li:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+}
+
+.services-pattern:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  --bg-opacity: 1;
+  background-color: #3C3C3C;
+  background-color: rgba(60, 60, 60, var(--bg-opacity));
+  opacity: 0.5;
+}
+
+.service-image {
+  margin: 10px;
+  max-width: 320px;
+  max-height: 320px;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .service-image {
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .service-image {
+    max-width: calc(33.3333% - 20px);
+  }
+}
+
+.question {
+  --bg-opacity: 1;
+  background-color: #F4F4F4;
+  background-color: rgba(244, 244, 244, var(--bg-opacity));
+}
+
+.question:nth-child(even) {
+  --bg-opacity: 1;
+  background-color: #EAEAEA;
+  background-color: rgba(234, 234, 234, var(--bg-opacity));
 }
 
 /*!
@@ -31519,6 +32757,30 @@ readers do not read off random characters that represent icons */
     margin-left: calc(24rem * calc(1 - var(--space-x-reverse)));
   }
 
+  .sm\:space-y-102 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(28rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(28rem * var(--space-y-reverse));
+  }
+
+  .sm\:space-x-102 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(28rem * var(--space-x-reverse));
+    margin-left: calc(28rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .sm\:space-y-200 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(62rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(62rem * var(--space-y-reverse));
+  }
+
+  .sm\:space-x-200 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(62rem * var(--space-x-reverse));
+    margin-left: calc(62rem * calc(1 - var(--space-x-reverse)));
+  }
+
   .sm\:space-y-px > :not(template) ~ :not(template){
     --space-y-reverse: 0;
     margin-top: calc(1px * calc(1 - var(--space-y-reverse)));
@@ -31903,6 +33165,30 @@ readers do not read off random characters that represent icons */
     margin-left: calc(100% * calc(1 - var(--space-x-reverse)));
   }
 
+  .sm\:space-y-95\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(95% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(95% * var(--space-y-reverse));
+  }
+
+  .sm\:space-x-95\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(95% * var(--space-x-reverse));
+    margin-left: calc(95% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .sm\:space-y-98\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(98% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(98% * var(--space-y-reverse));
+  }
+
+  .sm\:space-x-98\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(98% * var(--space-x-reverse));
+    margin-left: calc(98% * calc(1 - var(--space-x-reverse)));
+  }
+
   .sm\:-space-y-1 > :not(template) ~ :not(template){
     --space-y-reverse: 0;
     margin-top: calc(-0.25rem * calc(1 - var(--space-y-reverse)));
@@ -32273,6 +33559,30 @@ readers do not read off random characters that represent icons */
     --space-x-reverse: 0;
     margin-right: calc(-24rem * var(--space-x-reverse));
     margin-left: calc(-24rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .sm\:-space-y-102 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-28rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-28rem * var(--space-y-reverse));
+  }
+
+  .sm\:-space-x-102 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-28rem * var(--space-x-reverse));
+    margin-left: calc(-28rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .sm\:-space-y-200 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-62rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-62rem * var(--space-y-reverse));
+  }
+
+  .sm\:-space-x-200 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-62rem * var(--space-x-reverse));
+    margin-left: calc(-62rem * calc(1 - var(--space-x-reverse)));
   }
 
   .sm\:-space-y-px > :not(template) ~ :not(template){
@@ -32657,6 +33967,30 @@ readers do not read off random characters that represent icons */
     --space-x-reverse: 0;
     margin-right: calc(-100% * var(--space-x-reverse));
     margin-left: calc(-100% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .sm\:-space-y-95\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-95% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-95% * var(--space-y-reverse));
+  }
+
+  .sm\:-space-x-95\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-95% * var(--space-x-reverse));
+    margin-left: calc(-95% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .sm\:-space-y-98\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-98% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-98% * var(--space-y-reverse));
+  }
+
+  .sm\:-space-x-98\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-98% * var(--space-x-reverse));
+    margin-left: calc(-98% * calc(1 - var(--space-x-reverse)));
   }
 
   .sm\:space-y-reverse > :not(template) ~ :not(template){
@@ -33296,6 +34630,30 @@ readers do not read off random characters that represent icons */
 
   .sm\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .sm\:bg-newsletter-pattern{
+    background-image: url('/images/newsletter.jpg');
+  }
+
+  .sm\:bg-cakes-pattern{
+    background-image: url('/images/service1.jpg');
+  }
+
+  .sm\:bg-cheesecakes-pattern{
+    background-image: url('/images/service2.jpg');
+  }
+
+  .sm\:bg-cupcakes-pattern{
+    background-image: url('/images/service3.jpg');
+  }
+
+  .sm\:bg-puligi-pattern{
+    background-image: url('/images/service4.jpg');
+  }
+
+  .sm\:bg-gallery-pattern{
+    background-image: url('/images/service4.jpg');
   }
 
   .sm\:from-transparent{
@@ -35216,6 +36574,10 @@ readers do not read off random characters that represent icons */
     font-family: Poppins, sans-serif;
   }
 
+  .sm\:font-courgette{
+    font-family: Courgette, cursive;
+  }
+
   .sm\:font-hairline{
     font-weight: 100;
   }
@@ -35452,6 +36814,14 @@ readers do not read off random characters that represent icons */
     height: 24rem;
   }
 
+  .sm\:h-102{
+    height: 28rem;
+  }
+
+  .sm\:h-200{
+    height: 62rem;
+  }
+
   .sm\:h-auto{
     height: auto;
   }
@@ -35582,6 +36952,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:h-full{
     height: 100%;
+  }
+
+  .sm\:h-95\%{
+    height: 95%;
+  }
+
+  .sm\:h-98\%{
+    height: 98%;
   }
 
   .sm\:h-screen{
@@ -35832,6 +37210,14 @@ readers do not read off random characters that represent icons */
     margin: 24rem;
   }
 
+  .sm\:m-102{
+    margin: 28rem;
+  }
+
+  .sm\:m-200{
+    margin: 62rem;
+  }
+
   .sm\:m-auto{
     margin: auto;
   }
@@ -35964,6 +37350,14 @@ readers do not read off random characters that represent icons */
     margin: 100%;
   }
 
+  .sm\:m-95\%{
+    margin: 95%;
+  }
+
+  .sm\:m-98\%{
+    margin: 98%;
+  }
+
   .sm\:-m-1{
     margin: -0.25rem;
   }
@@ -36086,6 +37480,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:-m-96{
     margin: -24rem;
+  }
+
+  .sm\:-m-102{
+    margin: -28rem;
+  }
+
+  .sm\:-m-200{
+    margin: -62rem;
   }
 
   .sm\:-m-px{
@@ -36214,6 +37616,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:-m-full{
     margin: -100%;
+  }
+
+  .sm\:-m-95\%{
+    margin: -95%;
+  }
+
+  .sm\:-m-98\%{
+    margin: -98%;
   }
 
   .sm\:my-0{
@@ -36534,6 +37944,26 @@ readers do not read off random characters that represent icons */
   .sm\:mx-96{
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .sm\:my-102{
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+  }
+
+  .sm\:mx-102{
+    margin-left: 28rem;
+    margin-right: 28rem;
+  }
+
+  .sm\:my-200{
+    margin-top: 62rem;
+    margin-bottom: 62rem;
+  }
+
+  .sm\:mx-200{
+    margin-left: 62rem;
+    margin-right: 62rem;
   }
 
   .sm\:my-auto{
@@ -36866,6 +38296,26 @@ readers do not read off random characters that represent icons */
     margin-right: 100%;
   }
 
+  .sm\:my-95\%{
+    margin-top: 95%;
+    margin-bottom: 95%;
+  }
+
+  .sm\:mx-95\%{
+    margin-left: 95%;
+    margin-right: 95%;
+  }
+
+  .sm\:my-98\%{
+    margin-top: 98%;
+    margin-bottom: 98%;
+  }
+
+  .sm\:mx-98\%{
+    margin-left: 98%;
+    margin-right: 98%;
+  }
+
   .sm\:-my-1{
     margin-top: -0.25rem;
     margin-bottom: -0.25rem;
@@ -37174,6 +38624,26 @@ readers do not read off random characters that represent icons */
   .sm\:-mx-96{
     margin-left: -24rem;
     margin-right: -24rem;
+  }
+
+  .sm\:-my-102{
+    margin-top: -28rem;
+    margin-bottom: -28rem;
+  }
+
+  .sm\:-mx-102{
+    margin-left: -28rem;
+    margin-right: -28rem;
+  }
+
+  .sm\:-my-200{
+    margin-top: -62rem;
+    margin-bottom: -62rem;
+  }
+
+  .sm\:-mx-200{
+    margin-left: -62rem;
+    margin-right: -62rem;
   }
 
   .sm\:-my-px{
@@ -37494,6 +38964,26 @@ readers do not read off random characters that represent icons */
   .sm\:-mx-full{
     margin-left: -100%;
     margin-right: -100%;
+  }
+
+  .sm\:-my-95\%{
+    margin-top: -95%;
+    margin-bottom: -95%;
+  }
+
+  .sm\:-mx-95\%{
+    margin-left: -95%;
+    margin-right: -95%;
+  }
+
+  .sm\:-my-98\%{
+    margin-top: -98%;
+    margin-bottom: -98%;
+  }
+
+  .sm\:-mx-98\%{
+    margin-left: -98%;
+    margin-right: -98%;
   }
 
   .sm\:mt-0{
@@ -38006,6 +39496,38 @@ readers do not read off random characters that represent icons */
 
   .sm\:ml-96{
     margin-left: 24rem;
+  }
+
+  .sm\:mt-102{
+    margin-top: 28rem;
+  }
+
+  .sm\:mr-102{
+    margin-right: 28rem;
+  }
+
+  .sm\:mb-102{
+    margin-bottom: 28rem;
+  }
+
+  .sm\:ml-102{
+    margin-left: 28rem;
+  }
+
+  .sm\:mt-200{
+    margin-top: 62rem;
+  }
+
+  .sm\:mr-200{
+    margin-right: 62rem;
+  }
+
+  .sm\:mb-200{
+    margin-bottom: 62rem;
+  }
+
+  .sm\:ml-200{
+    margin-left: 62rem;
   }
 
   .sm\:mt-auto{
@@ -38536,6 +40058,38 @@ readers do not read off random characters that represent icons */
     margin-left: 100%;
   }
 
+  .sm\:mt-95\%{
+    margin-top: 95%;
+  }
+
+  .sm\:mr-95\%{
+    margin-right: 95%;
+  }
+
+  .sm\:mb-95\%{
+    margin-bottom: 95%;
+  }
+
+  .sm\:ml-95\%{
+    margin-left: 95%;
+  }
+
+  .sm\:mt-98\%{
+    margin-top: 98%;
+  }
+
+  .sm\:mr-98\%{
+    margin-right: 98%;
+  }
+
+  .sm\:mb-98\%{
+    margin-bottom: 98%;
+  }
+
+  .sm\:ml-98\%{
+    margin-left: 98%;
+  }
+
   .sm\:-mt-1{
     margin-top: -0.25rem;
   }
@@ -39030,6 +40584,38 @@ readers do not read off random characters that represent icons */
 
   .sm\:-ml-96{
     margin-left: -24rem;
+  }
+
+  .sm\:-mt-102{
+    margin-top: -28rem;
+  }
+
+  .sm\:-mr-102{
+    margin-right: -28rem;
+  }
+
+  .sm\:-mb-102{
+    margin-bottom: -28rem;
+  }
+
+  .sm\:-ml-102{
+    margin-left: -28rem;
+  }
+
+  .sm\:-mt-200{
+    margin-top: -62rem;
+  }
+
+  .sm\:-mr-200{
+    margin-right: -62rem;
+  }
+
+  .sm\:-mb-200{
+    margin-bottom: -62rem;
+  }
+
+  .sm\:-ml-200{
+    margin-left: -62rem;
   }
 
   .sm\:-mt-px{
@@ -39544,6 +41130,38 @@ readers do not read off random characters that represent icons */
     margin-left: -100%;
   }
 
+  .sm\:-mt-95\%{
+    margin-top: -95%;
+  }
+
+  .sm\:-mr-95\%{
+    margin-right: -95%;
+  }
+
+  .sm\:-mb-95\%{
+    margin-bottom: -95%;
+  }
+
+  .sm\:-ml-95\%{
+    margin-left: -95%;
+  }
+
+  .sm\:-mt-98\%{
+    margin-top: -98%;
+  }
+
+  .sm\:-mr-98\%{
+    margin-right: -98%;
+  }
+
+  .sm\:-mb-98\%{
+    margin-bottom: -98%;
+  }
+
+  .sm\:-ml-98\%{
+    margin-left: -98%;
+  }
+
   .sm\:max-h-0{
     max-height: 0;
   }
@@ -39670,6 +41288,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:max-h-96{
     max-height: 24rem;
+  }
+
+  .sm\:max-h-102{
+    max-height: 28rem;
+  }
+
+  .sm\:max-h-200{
+    max-height: 62rem;
   }
 
   .sm\:max-h-screen{
@@ -39804,6 +41430,14 @@ readers do not read off random characters that represent icons */
     max-height: 100%;
   }
 
+  .sm\:max-h-95\%{
+    max-height: 95%;
+  }
+
+  .sm\:max-h-98\%{
+    max-height: 98%;
+  }
+
   .sm\:max-w-0{
     max-width: 0rem;
   }
@@ -39890,6 +41524,10 @@ readers do not read off random characters that represent icons */
 
   .sm\:max-w-screen-xl{
     max-width: 1280px;
+  }
+
+  .sm\:max-w-95\%{
+    max-width: 95%;
   }
 
   .sm\:min-h-0{
@@ -40367,6 +42005,14 @@ readers do not read off random characters that represent icons */
     padding: 24rem;
   }
 
+  .sm\:p-102{
+    padding: 28rem;
+  }
+
+  .sm\:p-200{
+    padding: 62rem;
+  }
+
   .sm\:p-px{
     padding: 1px;
   }
@@ -40493,6 +42139,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:p-full{
     padding: 100%;
+  }
+
+  .sm\:p-95\%{
+    padding: 95%;
+  }
+
+  .sm\:p-98\%{
+    padding: 98%;
   }
 
   .sm\:py-0{
@@ -40815,6 +42469,26 @@ readers do not read off random characters that represent icons */
     padding-right: 24rem;
   }
 
+  .sm\:py-102{
+    padding-top: 28rem;
+    padding-bottom: 28rem;
+  }
+
+  .sm\:px-102{
+    padding-left: 28rem;
+    padding-right: 28rem;
+  }
+
+  .sm\:py-200{
+    padding-top: 62rem;
+    padding-bottom: 62rem;
+  }
+
+  .sm\:px-200{
+    padding-left: 62rem;
+    padding-right: 62rem;
+  }
+
   .sm\:py-px{
     padding-top: 1px;
     padding-bottom: 1px;
@@ -41133,6 +42807,26 @@ readers do not read off random characters that represent icons */
   .sm\:px-full{
     padding-left: 100%;
     padding-right: 100%;
+  }
+
+  .sm\:py-95\%{
+    padding-top: 95%;
+    padding-bottom: 95%;
+  }
+
+  .sm\:px-95\%{
+    padding-left: 95%;
+    padding-right: 95%;
+  }
+
+  .sm\:py-98\%{
+    padding-top: 98%;
+    padding-bottom: 98%;
+  }
+
+  .sm\:px-98\%{
+    padding-left: 98%;
+    padding-right: 98%;
   }
 
   .sm\:pt-0{
@@ -41647,6 +43341,38 @@ readers do not read off random characters that represent icons */
     padding-left: 24rem;
   }
 
+  .sm\:pt-102{
+    padding-top: 28rem;
+  }
+
+  .sm\:pr-102{
+    padding-right: 28rem;
+  }
+
+  .sm\:pb-102{
+    padding-bottom: 28rem;
+  }
+
+  .sm\:pl-102{
+    padding-left: 28rem;
+  }
+
+  .sm\:pt-200{
+    padding-top: 62rem;
+  }
+
+  .sm\:pr-200{
+    padding-right: 62rem;
+  }
+
+  .sm\:pb-200{
+    padding-bottom: 62rem;
+  }
+
+  .sm\:pl-200{
+    padding-left: 62rem;
+  }
+
   .sm\:pt-px{
     padding-top: 1px;
   }
@@ -42157,6 +43883,38 @@ readers do not read off random characters that represent icons */
 
   .sm\:pl-full{
     padding-left: 100%;
+  }
+
+  .sm\:pt-95\%{
+    padding-top: 95%;
+  }
+
+  .sm\:pr-95\%{
+    padding-right: 95%;
+  }
+
+  .sm\:pb-95\%{
+    padding-bottom: 95%;
+  }
+
+  .sm\:pl-95\%{
+    padding-left: 95%;
+  }
+
+  .sm\:pt-98\%{
+    padding-top: 98%;
+  }
+
+  .sm\:pr-98\%{
+    padding-right: 98%;
+  }
+
+  .sm\:pb-98\%{
+    padding-bottom: 98%;
+  }
+
+  .sm\:pl-98\%{
+    padding-left: 98%;
   }
 
   .sm\:placeholder-transparent::-moz-placeholder{
@@ -42880,6 +44638,20 @@ readers do not read off random characters that represent icons */
     left: 24rem;
   }
 
+  .sm\:inset-102{
+    top: 28rem;
+    right: 28rem;
+    bottom: 28rem;
+    left: 28rem;
+  }
+
+  .sm\:inset-200{
+    top: 62rem;
+    right: 62rem;
+    bottom: 62rem;
+    left: 62rem;
+  }
+
   .sm\:inset-auto{
     top: auto;
     right: auto;
@@ -43109,6 +44881,20 @@ readers do not read off random characters that represent icons */
     right: 100%;
     bottom: 100%;
     left: 100%;
+  }
+
+  .sm\:inset-95\%{
+    top: 95%;
+    right: 95%;
+    bottom: 95%;
+    left: 95%;
+  }
+
+  .sm\:inset-98\%{
+    top: 98%;
+    right: 98%;
+    bottom: 98%;
+    left: 98%;
   }
 
   .sm\:inset-y-0{
@@ -43429,6 +45215,26 @@ readers do not read off random characters that represent icons */
   .sm\:inset-x-96{
     right: 24rem;
     left: 24rem;
+  }
+
+  .sm\:inset-y-102{
+    top: 28rem;
+    bottom: 28rem;
+  }
+
+  .sm\:inset-x-102{
+    right: 28rem;
+    left: 28rem;
+  }
+
+  .sm\:inset-y-200{
+    top: 62rem;
+    bottom: 62rem;
+  }
+
+  .sm\:inset-x-200{
+    right: 62rem;
+    left: 62rem;
   }
 
   .sm\:inset-y-auto{
@@ -43759,6 +45565,26 @@ readers do not read off random characters that represent icons */
   .sm\:inset-x-full{
     right: 100%;
     left: 100%;
+  }
+
+  .sm\:inset-y-95\%{
+    top: 95%;
+    bottom: 95%;
+  }
+
+  .sm\:inset-x-95\%{
+    right: 95%;
+    left: 95%;
+  }
+
+  .sm\:inset-y-98\%{
+    top: 98%;
+    bottom: 98%;
+  }
+
+  .sm\:inset-x-98\%{
+    right: 98%;
+    left: 98%;
   }
 
   .sm\:top-0{
@@ -44271,6 +46097,38 @@ readers do not read off random characters that represent icons */
 
   .sm\:left-96{
     left: 24rem;
+  }
+
+  .sm\:top-102{
+    top: 28rem;
+  }
+
+  .sm\:right-102{
+    right: 28rem;
+  }
+
+  .sm\:bottom-102{
+    bottom: 28rem;
+  }
+
+  .sm\:left-102{
+    left: 28rem;
+  }
+
+  .sm\:top-200{
+    top: 62rem;
+  }
+
+  .sm\:right-200{
+    right: 62rem;
+  }
+
+  .sm\:bottom-200{
+    bottom: 62rem;
+  }
+
+  .sm\:left-200{
+    left: 62rem;
   }
 
   .sm\:top-auto{
@@ -44799,6 +46657,38 @@ readers do not read off random characters that represent icons */
 
   .sm\:left-full{
     left: 100%;
+  }
+
+  .sm\:top-95\%{
+    top: 95%;
+  }
+
+  .sm\:right-95\%{
+    right: 95%;
+  }
+
+  .sm\:bottom-95\%{
+    bottom: 95%;
+  }
+
+  .sm\:left-95\%{
+    left: 95%;
+  }
+
+  .sm\:top-98\%{
+    top: 98%;
+  }
+
+  .sm\:right-98\%{
+    right: 98%;
+  }
+
+  .sm\:bottom-98\%{
+    bottom: 98%;
+  }
+
+  .sm\:left-98\%{
+    left: 98%;
   }
 
   .sm\:resize-none{
@@ -46139,6 +48029,14 @@ readers do not read off random characters that represent icons */
     width: 24rem;
   }
 
+  .sm\:w-102{
+    width: 28rem;
+  }
+
+  .sm\:w-200{
+    width: 62rem;
+  }
+
   .sm\:w-auto{
     width: auto;
   }
@@ -46271,6 +48169,14 @@ readers do not read off random characters that represent icons */
     width: 100%;
   }
 
+  .sm\:w-95\%{
+    width: 95%;
+  }
+
+  .sm\:w-98\%{
+    width: 98%;
+  }
+
   .sm\:w-screen{
     width: 100vw;
   }
@@ -46315,6 +48221,10 @@ readers do not read off random characters that represent icons */
     z-index: auto;
   }
 
+  .sm\:-z-10{
+    z-index: -10;
+  }
+
   .sm\:focus-within\:z-0:focus-within{
     z-index: 0;
   }
@@ -46343,6 +48253,10 @@ readers do not read off random characters that represent icons */
     z-index: auto;
   }
 
+  .sm\:focus-within\:-z-10:focus-within{
+    z-index: -10;
+  }
+
   .sm\:focus\:z-0:focus{
     z-index: 0;
   }
@@ -46369,6 +48283,10 @@ readers do not read off random characters that represent icons */
 
   .sm\:focus\:z-auto:focus{
     z-index: auto;
+  }
+
+  .sm\:focus\:-z-10:focus{
+    z-index: -10;
   }
 
   .sm\:gap-0{
@@ -46531,6 +48449,16 @@ readers do not read off random characters that represent icons */
     gap: 24rem;
   }
 
+  .sm\:gap-102{
+    grid-gap: 28rem;
+    gap: 28rem;
+  }
+
+  .sm\:gap-200{
+    grid-gap: 62rem;
+    gap: 62rem;
+  }
+
   .sm\:gap-px{
     grid-gap: 1px;
     gap: 1px;
@@ -46689,6 +48617,16 @@ readers do not read off random characters that represent icons */
   .sm\:gap-full{
     grid-gap: 100%;
     gap: 100%;
+  }
+
+  .sm\:gap-95\%{
+    grid-gap: 95%;
+    gap: 95%;
+  }
+
+  .sm\:gap-98\%{
+    grid-gap: 98%;
+    gap: 98%;
   }
 
   .sm\:col-gap-0{
@@ -46883,6 +48821,18 @@ readers do not read off random characters that represent icons */
          column-gap: 24rem;
   }
 
+  .sm\:col-gap-102{
+    grid-column-gap: 28rem;
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
+  .sm\:col-gap-200{
+    grid-column-gap: 62rem;
+    -moz-column-gap: 62rem;
+         column-gap: 62rem;
+  }
+
   .sm\:col-gap-px{
     grid-column-gap: 1px;
     -moz-column-gap: 1px;
@@ -47073,6 +49023,18 @@ readers do not read off random characters that represent icons */
     grid-column-gap: 100%;
     -moz-column-gap: 100%;
          column-gap: 100%;
+  }
+
+  .sm\:col-gap-95\%{
+    grid-column-gap: 95%;
+    -moz-column-gap: 95%;
+         column-gap: 95%;
+  }
+
+  .sm\:col-gap-98\%{
+    grid-column-gap: 98%;
+    -moz-column-gap: 98%;
+         column-gap: 98%;
   }
 
   .sm\:gap-x-0{
@@ -47267,6 +49229,18 @@ readers do not read off random characters that represent icons */
          column-gap: 24rem;
   }
 
+  .sm\:gap-x-102{
+    grid-column-gap: 28rem;
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
+  .sm\:gap-x-200{
+    grid-column-gap: 62rem;
+    -moz-column-gap: 62rem;
+         column-gap: 62rem;
+  }
+
   .sm\:gap-x-px{
     grid-column-gap: 1px;
     -moz-column-gap: 1px;
@@ -47459,6 +49433,18 @@ readers do not read off random characters that represent icons */
          column-gap: 100%;
   }
 
+  .sm\:gap-x-95\%{
+    grid-column-gap: 95%;
+    -moz-column-gap: 95%;
+         column-gap: 95%;
+  }
+
+  .sm\:gap-x-98\%{
+    grid-column-gap: 98%;
+    -moz-column-gap: 98%;
+         column-gap: 98%;
+  }
+
   .sm\:row-gap-0{
     grid-row-gap: 0;
     row-gap: 0;
@@ -47617,6 +49603,16 @@ readers do not read off random characters that represent icons */
   .sm\:row-gap-96{
     grid-row-gap: 24rem;
     row-gap: 24rem;
+  }
+
+  .sm\:row-gap-102{
+    grid-row-gap: 28rem;
+    row-gap: 28rem;
+  }
+
+  .sm\:row-gap-200{
+    grid-row-gap: 62rem;
+    row-gap: 62rem;
   }
 
   .sm\:row-gap-px{
@@ -47779,6 +49775,16 @@ readers do not read off random characters that represent icons */
     row-gap: 100%;
   }
 
+  .sm\:row-gap-95\%{
+    grid-row-gap: 95%;
+    row-gap: 95%;
+  }
+
+  .sm\:row-gap-98\%{
+    grid-row-gap: 98%;
+    row-gap: 98%;
+  }
+
   .sm\:gap-y-0{
     grid-row-gap: 0;
     row-gap: 0;
@@ -47939,6 +49945,16 @@ readers do not read off random characters that represent icons */
     row-gap: 24rem;
   }
 
+  .sm\:gap-y-102{
+    grid-row-gap: 28rem;
+    row-gap: 28rem;
+  }
+
+  .sm\:gap-y-200{
+    grid-row-gap: 62rem;
+    row-gap: 62rem;
+  }
+
   .sm\:gap-y-px{
     grid-row-gap: 1px;
     row-gap: 1px;
@@ -48097,6 +50113,16 @@ readers do not read off random characters that represent icons */
   .sm\:gap-y-full{
     grid-row-gap: 100%;
     row-gap: 100%;
+  }
+
+  .sm\:gap-y-95\%{
+    grid-row-gap: 95%;
+    row-gap: 95%;
+  }
+
+  .sm\:gap-y-98\%{
+    grid-row-gap: 98%;
+    row-gap: 98%;
   }
 
   .sm\:grid-flow-row{
@@ -49268,6 +51294,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 24rem;
   }
 
+  .sm\:translate-x-102{
+    --transform-translate-x: 28rem;
+  }
+
+  .sm\:translate-x-200{
+    --transform-translate-x: 62rem;
+  }
+
   .sm\:translate-x-px{
     --transform-translate-x: 1px;
   }
@@ -49396,6 +51430,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .sm\:translate-x-95\%{
+    --transform-translate-x: 95%;
+  }
+
+  .sm\:translate-x-98\%{
+    --transform-translate-x: 98%;
+  }
+
   .sm\:-translate-x-1{
     --transform-translate-x: -0.25rem;
   }
@@ -49518,6 +51560,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:-translate-x-96{
     --transform-translate-x: -24rem;
+  }
+
+  .sm\:-translate-x-102{
+    --transform-translate-x: -28rem;
+  }
+
+  .sm\:-translate-x-200{
+    --transform-translate-x: -62rem;
   }
 
   .sm\:-translate-x-px{
@@ -49648,6 +51698,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .sm\:-translate-x-95\%{
+    --transform-translate-x: -95%;
+  }
+
+  .sm\:-translate-x-98\%{
+    --transform-translate-x: -98%;
+  }
+
   .sm\:translate-y-0{
     --transform-translate-y: 0;
   }
@@ -49774,6 +51832,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:translate-y-96{
     --transform-translate-y: 24rem;
+  }
+
+  .sm\:translate-y-102{
+    --transform-translate-y: 28rem;
+  }
+
+  .sm\:translate-y-200{
+    --transform-translate-y: 62rem;
   }
 
   .sm\:translate-y-px{
@@ -49904,6 +51970,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .sm\:translate-y-95\%{
+    --transform-translate-y: 95%;
+  }
+
+  .sm\:translate-y-98\%{
+    --transform-translate-y: 98%;
+  }
+
   .sm\:-translate-y-1{
     --transform-translate-y: -0.25rem;
   }
@@ -50026,6 +52100,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:-translate-y-96{
     --transform-translate-y: -24rem;
+  }
+
+  .sm\:-translate-y-102{
+    --transform-translate-y: -28rem;
+  }
+
+  .sm\:-translate-y-200{
+    --transform-translate-y: -62rem;
   }
 
   .sm\:-translate-y-px{
@@ -50156,6 +52238,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: -100%;
   }
 
+  .sm\:-translate-y-95\%{
+    --transform-translate-y: -95%;
+  }
+
+  .sm\:-translate-y-98\%{
+    --transform-translate-y: -98%;
+  }
+
   .sm\:hover\:translate-x-0:hover{
     --transform-translate-x: 0;
   }
@@ -50282,6 +52372,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:hover\:translate-x-96:hover{
     --transform-translate-x: 24rem;
+  }
+
+  .sm\:hover\:translate-x-102:hover{
+    --transform-translate-x: 28rem;
+  }
+
+  .sm\:hover\:translate-x-200:hover{
+    --transform-translate-x: 62rem;
   }
 
   .sm\:hover\:translate-x-px:hover{
@@ -50412,6 +52510,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .sm\:hover\:translate-x-95\%:hover{
+    --transform-translate-x: 95%;
+  }
+
+  .sm\:hover\:translate-x-98\%:hover{
+    --transform-translate-x: 98%;
+  }
+
   .sm\:hover\:-translate-x-1:hover{
     --transform-translate-x: -0.25rem;
   }
@@ -50534,6 +52640,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:hover\:-translate-x-96:hover{
     --transform-translate-x: -24rem;
+  }
+
+  .sm\:hover\:-translate-x-102:hover{
+    --transform-translate-x: -28rem;
+  }
+
+  .sm\:hover\:-translate-x-200:hover{
+    --transform-translate-x: -62rem;
   }
 
   .sm\:hover\:-translate-x-px:hover{
@@ -50664,6 +52778,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .sm\:hover\:-translate-x-95\%:hover{
+    --transform-translate-x: -95%;
+  }
+
+  .sm\:hover\:-translate-x-98\%:hover{
+    --transform-translate-x: -98%;
+  }
+
   .sm\:hover\:translate-y-0:hover{
     --transform-translate-y: 0;
   }
@@ -50790,6 +52912,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:hover\:translate-y-96:hover{
     --transform-translate-y: 24rem;
+  }
+
+  .sm\:hover\:translate-y-102:hover{
+    --transform-translate-y: 28rem;
+  }
+
+  .sm\:hover\:translate-y-200:hover{
+    --transform-translate-y: 62rem;
   }
 
   .sm\:hover\:translate-y-px:hover{
@@ -50920,6 +53050,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .sm\:hover\:translate-y-95\%:hover{
+    --transform-translate-y: 95%;
+  }
+
+  .sm\:hover\:translate-y-98\%:hover{
+    --transform-translate-y: 98%;
+  }
+
   .sm\:hover\:-translate-y-1:hover{
     --transform-translate-y: -0.25rem;
   }
@@ -51042,6 +53180,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:hover\:-translate-y-96:hover{
     --transform-translate-y: -24rem;
+  }
+
+  .sm\:hover\:-translate-y-102:hover{
+    --transform-translate-y: -28rem;
+  }
+
+  .sm\:hover\:-translate-y-200:hover{
+    --transform-translate-y: -62rem;
   }
 
   .sm\:hover\:-translate-y-px:hover{
@@ -51172,6 +53318,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: -100%;
   }
 
+  .sm\:hover\:-translate-y-95\%:hover{
+    --transform-translate-y: -95%;
+  }
+
+  .sm\:hover\:-translate-y-98\%:hover{
+    --transform-translate-y: -98%;
+  }
+
   .sm\:focus\:translate-x-0:focus{
     --transform-translate-x: 0;
   }
@@ -51298,6 +53452,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:focus\:translate-x-96:focus{
     --transform-translate-x: 24rem;
+  }
+
+  .sm\:focus\:translate-x-102:focus{
+    --transform-translate-x: 28rem;
+  }
+
+  .sm\:focus\:translate-x-200:focus{
+    --transform-translate-x: 62rem;
   }
 
   .sm\:focus\:translate-x-px:focus{
@@ -51428,6 +53590,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .sm\:focus\:translate-x-95\%:focus{
+    --transform-translate-x: 95%;
+  }
+
+  .sm\:focus\:translate-x-98\%:focus{
+    --transform-translate-x: 98%;
+  }
+
   .sm\:focus\:-translate-x-1:focus{
     --transform-translate-x: -0.25rem;
   }
@@ -51550,6 +53720,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:focus\:-translate-x-96:focus{
     --transform-translate-x: -24rem;
+  }
+
+  .sm\:focus\:-translate-x-102:focus{
+    --transform-translate-x: -28rem;
+  }
+
+  .sm\:focus\:-translate-x-200:focus{
+    --transform-translate-x: -62rem;
   }
 
   .sm\:focus\:-translate-x-px:focus{
@@ -51680,6 +53858,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .sm\:focus\:-translate-x-95\%:focus{
+    --transform-translate-x: -95%;
+  }
+
+  .sm\:focus\:-translate-x-98\%:focus{
+    --transform-translate-x: -98%;
+  }
+
   .sm\:focus\:translate-y-0:focus{
     --transform-translate-y: 0;
   }
@@ -51806,6 +53992,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:focus\:translate-y-96:focus{
     --transform-translate-y: 24rem;
+  }
+
+  .sm\:focus\:translate-y-102:focus{
+    --transform-translate-y: 28rem;
+  }
+
+  .sm\:focus\:translate-y-200:focus{
+    --transform-translate-y: 62rem;
   }
 
   .sm\:focus\:translate-y-px:focus{
@@ -51936,6 +54130,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .sm\:focus\:translate-y-95\%:focus{
+    --transform-translate-y: 95%;
+  }
+
+  .sm\:focus\:translate-y-98\%:focus{
+    --transform-translate-y: 98%;
+  }
+
   .sm\:focus\:-translate-y-1:focus{
     --transform-translate-y: -0.25rem;
   }
@@ -52058,6 +54260,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:focus\:-translate-y-96:focus{
     --transform-translate-y: -24rem;
+  }
+
+  .sm\:focus\:-translate-y-102:focus{
+    --transform-translate-y: -28rem;
+  }
+
+  .sm\:focus\:-translate-y-200:focus{
+    --transform-translate-y: -62rem;
   }
 
   .sm\:focus\:-translate-y-px:focus{
@@ -52186,6 +54396,14 @@ readers do not read off random characters that represent icons */
 
   .sm\:focus\:-translate-y-full:focus{
     --transform-translate-y: -100%;
+  }
+
+  .sm\:focus\:-translate-y-95\%:focus{
+    --transform-translate-y: -95%;
+  }
+
+  .sm\:focus\:-translate-y-98\%:focus{
+    --transform-translate-y: -98%;
   }
 
   .sm\:skew-x-0{
@@ -54232,6 +56450,30 @@ readers do not read off random characters that represent icons */
     margin-left: calc(24rem * calc(1 - var(--space-x-reverse)));
   }
 
+  .md\:space-y-102 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(28rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(28rem * var(--space-y-reverse));
+  }
+
+  .md\:space-x-102 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(28rem * var(--space-x-reverse));
+    margin-left: calc(28rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .md\:space-y-200 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(62rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(62rem * var(--space-y-reverse));
+  }
+
+  .md\:space-x-200 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(62rem * var(--space-x-reverse));
+    margin-left: calc(62rem * calc(1 - var(--space-x-reverse)));
+  }
+
   .md\:space-y-px > :not(template) ~ :not(template){
     --space-y-reverse: 0;
     margin-top: calc(1px * calc(1 - var(--space-y-reverse)));
@@ -54616,6 +56858,30 @@ readers do not read off random characters that represent icons */
     margin-left: calc(100% * calc(1 - var(--space-x-reverse)));
   }
 
+  .md\:space-y-95\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(95% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(95% * var(--space-y-reverse));
+  }
+
+  .md\:space-x-95\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(95% * var(--space-x-reverse));
+    margin-left: calc(95% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .md\:space-y-98\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(98% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(98% * var(--space-y-reverse));
+  }
+
+  .md\:space-x-98\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(98% * var(--space-x-reverse));
+    margin-left: calc(98% * calc(1 - var(--space-x-reverse)));
+  }
+
   .md\:-space-y-1 > :not(template) ~ :not(template){
     --space-y-reverse: 0;
     margin-top: calc(-0.25rem * calc(1 - var(--space-y-reverse)));
@@ -54986,6 +57252,30 @@ readers do not read off random characters that represent icons */
     --space-x-reverse: 0;
     margin-right: calc(-24rem * var(--space-x-reverse));
     margin-left: calc(-24rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .md\:-space-y-102 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-28rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-28rem * var(--space-y-reverse));
+  }
+
+  .md\:-space-x-102 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-28rem * var(--space-x-reverse));
+    margin-left: calc(-28rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .md\:-space-y-200 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-62rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-62rem * var(--space-y-reverse));
+  }
+
+  .md\:-space-x-200 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-62rem * var(--space-x-reverse));
+    margin-left: calc(-62rem * calc(1 - var(--space-x-reverse)));
   }
 
   .md\:-space-y-px > :not(template) ~ :not(template){
@@ -55370,6 +57660,30 @@ readers do not read off random characters that represent icons */
     --space-x-reverse: 0;
     margin-right: calc(-100% * var(--space-x-reverse));
     margin-left: calc(-100% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .md\:-space-y-95\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-95% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-95% * var(--space-y-reverse));
+  }
+
+  .md\:-space-x-95\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-95% * var(--space-x-reverse));
+    margin-left: calc(-95% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .md\:-space-y-98\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-98% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-98% * var(--space-y-reverse));
+  }
+
+  .md\:-space-x-98\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-98% * var(--space-x-reverse));
+    margin-left: calc(-98% * calc(1 - var(--space-x-reverse)));
   }
 
   .md\:space-y-reverse > :not(template) ~ :not(template){
@@ -56009,6 +58323,30 @@ readers do not read off random characters that represent icons */
 
   .md\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .md\:bg-newsletter-pattern{
+    background-image: url('/images/newsletter.jpg');
+  }
+
+  .md\:bg-cakes-pattern{
+    background-image: url('/images/service1.jpg');
+  }
+
+  .md\:bg-cheesecakes-pattern{
+    background-image: url('/images/service2.jpg');
+  }
+
+  .md\:bg-cupcakes-pattern{
+    background-image: url('/images/service3.jpg');
+  }
+
+  .md\:bg-puligi-pattern{
+    background-image: url('/images/service4.jpg');
+  }
+
+  .md\:bg-gallery-pattern{
+    background-image: url('/images/service4.jpg');
   }
 
   .md\:from-transparent{
@@ -57929,6 +60267,10 @@ readers do not read off random characters that represent icons */
     font-family: Poppins, sans-serif;
   }
 
+  .md\:font-courgette{
+    font-family: Courgette, cursive;
+  }
+
   .md\:font-hairline{
     font-weight: 100;
   }
@@ -58165,6 +60507,14 @@ readers do not read off random characters that represent icons */
     height: 24rem;
   }
 
+  .md\:h-102{
+    height: 28rem;
+  }
+
+  .md\:h-200{
+    height: 62rem;
+  }
+
   .md\:h-auto{
     height: auto;
   }
@@ -58295,6 +60645,14 @@ readers do not read off random characters that represent icons */
 
   .md\:h-full{
     height: 100%;
+  }
+
+  .md\:h-95\%{
+    height: 95%;
+  }
+
+  .md\:h-98\%{
+    height: 98%;
   }
 
   .md\:h-screen{
@@ -58545,6 +60903,14 @@ readers do not read off random characters that represent icons */
     margin: 24rem;
   }
 
+  .md\:m-102{
+    margin: 28rem;
+  }
+
+  .md\:m-200{
+    margin: 62rem;
+  }
+
   .md\:m-auto{
     margin: auto;
   }
@@ -58677,6 +61043,14 @@ readers do not read off random characters that represent icons */
     margin: 100%;
   }
 
+  .md\:m-95\%{
+    margin: 95%;
+  }
+
+  .md\:m-98\%{
+    margin: 98%;
+  }
+
   .md\:-m-1{
     margin: -0.25rem;
   }
@@ -58799,6 +61173,14 @@ readers do not read off random characters that represent icons */
 
   .md\:-m-96{
     margin: -24rem;
+  }
+
+  .md\:-m-102{
+    margin: -28rem;
+  }
+
+  .md\:-m-200{
+    margin: -62rem;
   }
 
   .md\:-m-px{
@@ -58927,6 +61309,14 @@ readers do not read off random characters that represent icons */
 
   .md\:-m-full{
     margin: -100%;
+  }
+
+  .md\:-m-95\%{
+    margin: -95%;
+  }
+
+  .md\:-m-98\%{
+    margin: -98%;
   }
 
   .md\:my-0{
@@ -59247,6 +61637,26 @@ readers do not read off random characters that represent icons */
   .md\:mx-96{
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .md\:my-102{
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+  }
+
+  .md\:mx-102{
+    margin-left: 28rem;
+    margin-right: 28rem;
+  }
+
+  .md\:my-200{
+    margin-top: 62rem;
+    margin-bottom: 62rem;
+  }
+
+  .md\:mx-200{
+    margin-left: 62rem;
+    margin-right: 62rem;
   }
 
   .md\:my-auto{
@@ -59579,6 +61989,26 @@ readers do not read off random characters that represent icons */
     margin-right: 100%;
   }
 
+  .md\:my-95\%{
+    margin-top: 95%;
+    margin-bottom: 95%;
+  }
+
+  .md\:mx-95\%{
+    margin-left: 95%;
+    margin-right: 95%;
+  }
+
+  .md\:my-98\%{
+    margin-top: 98%;
+    margin-bottom: 98%;
+  }
+
+  .md\:mx-98\%{
+    margin-left: 98%;
+    margin-right: 98%;
+  }
+
   .md\:-my-1{
     margin-top: -0.25rem;
     margin-bottom: -0.25rem;
@@ -59887,6 +62317,26 @@ readers do not read off random characters that represent icons */
   .md\:-mx-96{
     margin-left: -24rem;
     margin-right: -24rem;
+  }
+
+  .md\:-my-102{
+    margin-top: -28rem;
+    margin-bottom: -28rem;
+  }
+
+  .md\:-mx-102{
+    margin-left: -28rem;
+    margin-right: -28rem;
+  }
+
+  .md\:-my-200{
+    margin-top: -62rem;
+    margin-bottom: -62rem;
+  }
+
+  .md\:-mx-200{
+    margin-left: -62rem;
+    margin-right: -62rem;
   }
 
   .md\:-my-px{
@@ -60207,6 +62657,26 @@ readers do not read off random characters that represent icons */
   .md\:-mx-full{
     margin-left: -100%;
     margin-right: -100%;
+  }
+
+  .md\:-my-95\%{
+    margin-top: -95%;
+    margin-bottom: -95%;
+  }
+
+  .md\:-mx-95\%{
+    margin-left: -95%;
+    margin-right: -95%;
+  }
+
+  .md\:-my-98\%{
+    margin-top: -98%;
+    margin-bottom: -98%;
+  }
+
+  .md\:-mx-98\%{
+    margin-left: -98%;
+    margin-right: -98%;
   }
 
   .md\:mt-0{
@@ -60719,6 +63189,38 @@ readers do not read off random characters that represent icons */
 
   .md\:ml-96{
     margin-left: 24rem;
+  }
+
+  .md\:mt-102{
+    margin-top: 28rem;
+  }
+
+  .md\:mr-102{
+    margin-right: 28rem;
+  }
+
+  .md\:mb-102{
+    margin-bottom: 28rem;
+  }
+
+  .md\:ml-102{
+    margin-left: 28rem;
+  }
+
+  .md\:mt-200{
+    margin-top: 62rem;
+  }
+
+  .md\:mr-200{
+    margin-right: 62rem;
+  }
+
+  .md\:mb-200{
+    margin-bottom: 62rem;
+  }
+
+  .md\:ml-200{
+    margin-left: 62rem;
   }
 
   .md\:mt-auto{
@@ -61249,6 +63751,38 @@ readers do not read off random characters that represent icons */
     margin-left: 100%;
   }
 
+  .md\:mt-95\%{
+    margin-top: 95%;
+  }
+
+  .md\:mr-95\%{
+    margin-right: 95%;
+  }
+
+  .md\:mb-95\%{
+    margin-bottom: 95%;
+  }
+
+  .md\:ml-95\%{
+    margin-left: 95%;
+  }
+
+  .md\:mt-98\%{
+    margin-top: 98%;
+  }
+
+  .md\:mr-98\%{
+    margin-right: 98%;
+  }
+
+  .md\:mb-98\%{
+    margin-bottom: 98%;
+  }
+
+  .md\:ml-98\%{
+    margin-left: 98%;
+  }
+
   .md\:-mt-1{
     margin-top: -0.25rem;
   }
@@ -61743,6 +64277,38 @@ readers do not read off random characters that represent icons */
 
   .md\:-ml-96{
     margin-left: -24rem;
+  }
+
+  .md\:-mt-102{
+    margin-top: -28rem;
+  }
+
+  .md\:-mr-102{
+    margin-right: -28rem;
+  }
+
+  .md\:-mb-102{
+    margin-bottom: -28rem;
+  }
+
+  .md\:-ml-102{
+    margin-left: -28rem;
+  }
+
+  .md\:-mt-200{
+    margin-top: -62rem;
+  }
+
+  .md\:-mr-200{
+    margin-right: -62rem;
+  }
+
+  .md\:-mb-200{
+    margin-bottom: -62rem;
+  }
+
+  .md\:-ml-200{
+    margin-left: -62rem;
   }
 
   .md\:-mt-px{
@@ -62257,6 +64823,38 @@ readers do not read off random characters that represent icons */
     margin-left: -100%;
   }
 
+  .md\:-mt-95\%{
+    margin-top: -95%;
+  }
+
+  .md\:-mr-95\%{
+    margin-right: -95%;
+  }
+
+  .md\:-mb-95\%{
+    margin-bottom: -95%;
+  }
+
+  .md\:-ml-95\%{
+    margin-left: -95%;
+  }
+
+  .md\:-mt-98\%{
+    margin-top: -98%;
+  }
+
+  .md\:-mr-98\%{
+    margin-right: -98%;
+  }
+
+  .md\:-mb-98\%{
+    margin-bottom: -98%;
+  }
+
+  .md\:-ml-98\%{
+    margin-left: -98%;
+  }
+
   .md\:max-h-0{
     max-height: 0;
   }
@@ -62383,6 +64981,14 @@ readers do not read off random characters that represent icons */
 
   .md\:max-h-96{
     max-height: 24rem;
+  }
+
+  .md\:max-h-102{
+    max-height: 28rem;
+  }
+
+  .md\:max-h-200{
+    max-height: 62rem;
   }
 
   .md\:max-h-screen{
@@ -62517,6 +65123,14 @@ readers do not read off random characters that represent icons */
     max-height: 100%;
   }
 
+  .md\:max-h-95\%{
+    max-height: 95%;
+  }
+
+  .md\:max-h-98\%{
+    max-height: 98%;
+  }
+
   .md\:max-w-0{
     max-width: 0rem;
   }
@@ -62603,6 +65217,10 @@ readers do not read off random characters that represent icons */
 
   .md\:max-w-screen-xl{
     max-width: 1280px;
+  }
+
+  .md\:max-w-95\%{
+    max-width: 95%;
   }
 
   .md\:min-h-0{
@@ -63080,6 +65698,14 @@ readers do not read off random characters that represent icons */
     padding: 24rem;
   }
 
+  .md\:p-102{
+    padding: 28rem;
+  }
+
+  .md\:p-200{
+    padding: 62rem;
+  }
+
   .md\:p-px{
     padding: 1px;
   }
@@ -63206,6 +65832,14 @@ readers do not read off random characters that represent icons */
 
   .md\:p-full{
     padding: 100%;
+  }
+
+  .md\:p-95\%{
+    padding: 95%;
+  }
+
+  .md\:p-98\%{
+    padding: 98%;
   }
 
   .md\:py-0{
@@ -63528,6 +66162,26 @@ readers do not read off random characters that represent icons */
     padding-right: 24rem;
   }
 
+  .md\:py-102{
+    padding-top: 28rem;
+    padding-bottom: 28rem;
+  }
+
+  .md\:px-102{
+    padding-left: 28rem;
+    padding-right: 28rem;
+  }
+
+  .md\:py-200{
+    padding-top: 62rem;
+    padding-bottom: 62rem;
+  }
+
+  .md\:px-200{
+    padding-left: 62rem;
+    padding-right: 62rem;
+  }
+
   .md\:py-px{
     padding-top: 1px;
     padding-bottom: 1px;
@@ -63846,6 +66500,26 @@ readers do not read off random characters that represent icons */
   .md\:px-full{
     padding-left: 100%;
     padding-right: 100%;
+  }
+
+  .md\:py-95\%{
+    padding-top: 95%;
+    padding-bottom: 95%;
+  }
+
+  .md\:px-95\%{
+    padding-left: 95%;
+    padding-right: 95%;
+  }
+
+  .md\:py-98\%{
+    padding-top: 98%;
+    padding-bottom: 98%;
+  }
+
+  .md\:px-98\%{
+    padding-left: 98%;
+    padding-right: 98%;
   }
 
   .md\:pt-0{
@@ -64360,6 +67034,38 @@ readers do not read off random characters that represent icons */
     padding-left: 24rem;
   }
 
+  .md\:pt-102{
+    padding-top: 28rem;
+  }
+
+  .md\:pr-102{
+    padding-right: 28rem;
+  }
+
+  .md\:pb-102{
+    padding-bottom: 28rem;
+  }
+
+  .md\:pl-102{
+    padding-left: 28rem;
+  }
+
+  .md\:pt-200{
+    padding-top: 62rem;
+  }
+
+  .md\:pr-200{
+    padding-right: 62rem;
+  }
+
+  .md\:pb-200{
+    padding-bottom: 62rem;
+  }
+
+  .md\:pl-200{
+    padding-left: 62rem;
+  }
+
   .md\:pt-px{
     padding-top: 1px;
   }
@@ -64870,6 +67576,38 @@ readers do not read off random characters that represent icons */
 
   .md\:pl-full{
     padding-left: 100%;
+  }
+
+  .md\:pt-95\%{
+    padding-top: 95%;
+  }
+
+  .md\:pr-95\%{
+    padding-right: 95%;
+  }
+
+  .md\:pb-95\%{
+    padding-bottom: 95%;
+  }
+
+  .md\:pl-95\%{
+    padding-left: 95%;
+  }
+
+  .md\:pt-98\%{
+    padding-top: 98%;
+  }
+
+  .md\:pr-98\%{
+    padding-right: 98%;
+  }
+
+  .md\:pb-98\%{
+    padding-bottom: 98%;
+  }
+
+  .md\:pl-98\%{
+    padding-left: 98%;
   }
 
   .md\:placeholder-transparent::-moz-placeholder{
@@ -65593,6 +68331,20 @@ readers do not read off random characters that represent icons */
     left: 24rem;
   }
 
+  .md\:inset-102{
+    top: 28rem;
+    right: 28rem;
+    bottom: 28rem;
+    left: 28rem;
+  }
+
+  .md\:inset-200{
+    top: 62rem;
+    right: 62rem;
+    bottom: 62rem;
+    left: 62rem;
+  }
+
   .md\:inset-auto{
     top: auto;
     right: auto;
@@ -65822,6 +68574,20 @@ readers do not read off random characters that represent icons */
     right: 100%;
     bottom: 100%;
     left: 100%;
+  }
+
+  .md\:inset-95\%{
+    top: 95%;
+    right: 95%;
+    bottom: 95%;
+    left: 95%;
+  }
+
+  .md\:inset-98\%{
+    top: 98%;
+    right: 98%;
+    bottom: 98%;
+    left: 98%;
   }
 
   .md\:inset-y-0{
@@ -66142,6 +68908,26 @@ readers do not read off random characters that represent icons */
   .md\:inset-x-96{
     right: 24rem;
     left: 24rem;
+  }
+
+  .md\:inset-y-102{
+    top: 28rem;
+    bottom: 28rem;
+  }
+
+  .md\:inset-x-102{
+    right: 28rem;
+    left: 28rem;
+  }
+
+  .md\:inset-y-200{
+    top: 62rem;
+    bottom: 62rem;
+  }
+
+  .md\:inset-x-200{
+    right: 62rem;
+    left: 62rem;
   }
 
   .md\:inset-y-auto{
@@ -66472,6 +69258,26 @@ readers do not read off random characters that represent icons */
   .md\:inset-x-full{
     right: 100%;
     left: 100%;
+  }
+
+  .md\:inset-y-95\%{
+    top: 95%;
+    bottom: 95%;
+  }
+
+  .md\:inset-x-95\%{
+    right: 95%;
+    left: 95%;
+  }
+
+  .md\:inset-y-98\%{
+    top: 98%;
+    bottom: 98%;
+  }
+
+  .md\:inset-x-98\%{
+    right: 98%;
+    left: 98%;
   }
 
   .md\:top-0{
@@ -66984,6 +69790,38 @@ readers do not read off random characters that represent icons */
 
   .md\:left-96{
     left: 24rem;
+  }
+
+  .md\:top-102{
+    top: 28rem;
+  }
+
+  .md\:right-102{
+    right: 28rem;
+  }
+
+  .md\:bottom-102{
+    bottom: 28rem;
+  }
+
+  .md\:left-102{
+    left: 28rem;
+  }
+
+  .md\:top-200{
+    top: 62rem;
+  }
+
+  .md\:right-200{
+    right: 62rem;
+  }
+
+  .md\:bottom-200{
+    bottom: 62rem;
+  }
+
+  .md\:left-200{
+    left: 62rem;
   }
 
   .md\:top-auto{
@@ -67512,6 +70350,38 @@ readers do not read off random characters that represent icons */
 
   .md\:left-full{
     left: 100%;
+  }
+
+  .md\:top-95\%{
+    top: 95%;
+  }
+
+  .md\:right-95\%{
+    right: 95%;
+  }
+
+  .md\:bottom-95\%{
+    bottom: 95%;
+  }
+
+  .md\:left-95\%{
+    left: 95%;
+  }
+
+  .md\:top-98\%{
+    top: 98%;
+  }
+
+  .md\:right-98\%{
+    right: 98%;
+  }
+
+  .md\:bottom-98\%{
+    bottom: 98%;
+  }
+
+  .md\:left-98\%{
+    left: 98%;
   }
 
   .md\:resize-none{
@@ -68852,6 +71722,14 @@ readers do not read off random characters that represent icons */
     width: 24rem;
   }
 
+  .md\:w-102{
+    width: 28rem;
+  }
+
+  .md\:w-200{
+    width: 62rem;
+  }
+
   .md\:w-auto{
     width: auto;
   }
@@ -68984,6 +71862,14 @@ readers do not read off random characters that represent icons */
     width: 100%;
   }
 
+  .md\:w-95\%{
+    width: 95%;
+  }
+
+  .md\:w-98\%{
+    width: 98%;
+  }
+
   .md\:w-screen{
     width: 100vw;
   }
@@ -69028,6 +71914,10 @@ readers do not read off random characters that represent icons */
     z-index: auto;
   }
 
+  .md\:-z-10{
+    z-index: -10;
+  }
+
   .md\:focus-within\:z-0:focus-within{
     z-index: 0;
   }
@@ -69056,6 +71946,10 @@ readers do not read off random characters that represent icons */
     z-index: auto;
   }
 
+  .md\:focus-within\:-z-10:focus-within{
+    z-index: -10;
+  }
+
   .md\:focus\:z-0:focus{
     z-index: 0;
   }
@@ -69082,6 +71976,10 @@ readers do not read off random characters that represent icons */
 
   .md\:focus\:z-auto:focus{
     z-index: auto;
+  }
+
+  .md\:focus\:-z-10:focus{
+    z-index: -10;
   }
 
   .md\:gap-0{
@@ -69244,6 +72142,16 @@ readers do not read off random characters that represent icons */
     gap: 24rem;
   }
 
+  .md\:gap-102{
+    grid-gap: 28rem;
+    gap: 28rem;
+  }
+
+  .md\:gap-200{
+    grid-gap: 62rem;
+    gap: 62rem;
+  }
+
   .md\:gap-px{
     grid-gap: 1px;
     gap: 1px;
@@ -69402,6 +72310,16 @@ readers do not read off random characters that represent icons */
   .md\:gap-full{
     grid-gap: 100%;
     gap: 100%;
+  }
+
+  .md\:gap-95\%{
+    grid-gap: 95%;
+    gap: 95%;
+  }
+
+  .md\:gap-98\%{
+    grid-gap: 98%;
+    gap: 98%;
   }
 
   .md\:col-gap-0{
@@ -69596,6 +72514,18 @@ readers do not read off random characters that represent icons */
          column-gap: 24rem;
   }
 
+  .md\:col-gap-102{
+    grid-column-gap: 28rem;
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
+  .md\:col-gap-200{
+    grid-column-gap: 62rem;
+    -moz-column-gap: 62rem;
+         column-gap: 62rem;
+  }
+
   .md\:col-gap-px{
     grid-column-gap: 1px;
     -moz-column-gap: 1px;
@@ -69786,6 +72716,18 @@ readers do not read off random characters that represent icons */
     grid-column-gap: 100%;
     -moz-column-gap: 100%;
          column-gap: 100%;
+  }
+
+  .md\:col-gap-95\%{
+    grid-column-gap: 95%;
+    -moz-column-gap: 95%;
+         column-gap: 95%;
+  }
+
+  .md\:col-gap-98\%{
+    grid-column-gap: 98%;
+    -moz-column-gap: 98%;
+         column-gap: 98%;
   }
 
   .md\:gap-x-0{
@@ -69980,6 +72922,18 @@ readers do not read off random characters that represent icons */
          column-gap: 24rem;
   }
 
+  .md\:gap-x-102{
+    grid-column-gap: 28rem;
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
+  .md\:gap-x-200{
+    grid-column-gap: 62rem;
+    -moz-column-gap: 62rem;
+         column-gap: 62rem;
+  }
+
   .md\:gap-x-px{
     grid-column-gap: 1px;
     -moz-column-gap: 1px;
@@ -70172,6 +73126,18 @@ readers do not read off random characters that represent icons */
          column-gap: 100%;
   }
 
+  .md\:gap-x-95\%{
+    grid-column-gap: 95%;
+    -moz-column-gap: 95%;
+         column-gap: 95%;
+  }
+
+  .md\:gap-x-98\%{
+    grid-column-gap: 98%;
+    -moz-column-gap: 98%;
+         column-gap: 98%;
+  }
+
   .md\:row-gap-0{
     grid-row-gap: 0;
     row-gap: 0;
@@ -70330,6 +73296,16 @@ readers do not read off random characters that represent icons */
   .md\:row-gap-96{
     grid-row-gap: 24rem;
     row-gap: 24rem;
+  }
+
+  .md\:row-gap-102{
+    grid-row-gap: 28rem;
+    row-gap: 28rem;
+  }
+
+  .md\:row-gap-200{
+    grid-row-gap: 62rem;
+    row-gap: 62rem;
   }
 
   .md\:row-gap-px{
@@ -70492,6 +73468,16 @@ readers do not read off random characters that represent icons */
     row-gap: 100%;
   }
 
+  .md\:row-gap-95\%{
+    grid-row-gap: 95%;
+    row-gap: 95%;
+  }
+
+  .md\:row-gap-98\%{
+    grid-row-gap: 98%;
+    row-gap: 98%;
+  }
+
   .md\:gap-y-0{
     grid-row-gap: 0;
     row-gap: 0;
@@ -70652,6 +73638,16 @@ readers do not read off random characters that represent icons */
     row-gap: 24rem;
   }
 
+  .md\:gap-y-102{
+    grid-row-gap: 28rem;
+    row-gap: 28rem;
+  }
+
+  .md\:gap-y-200{
+    grid-row-gap: 62rem;
+    row-gap: 62rem;
+  }
+
   .md\:gap-y-px{
     grid-row-gap: 1px;
     row-gap: 1px;
@@ -70810,6 +73806,16 @@ readers do not read off random characters that represent icons */
   .md\:gap-y-full{
     grid-row-gap: 100%;
     row-gap: 100%;
+  }
+
+  .md\:gap-y-95\%{
+    grid-row-gap: 95%;
+    row-gap: 95%;
+  }
+
+  .md\:gap-y-98\%{
+    grid-row-gap: 98%;
+    row-gap: 98%;
   }
 
   .md\:grid-flow-row{
@@ -71981,6 +74987,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 24rem;
   }
 
+  .md\:translate-x-102{
+    --transform-translate-x: 28rem;
+  }
+
+  .md\:translate-x-200{
+    --transform-translate-x: 62rem;
+  }
+
   .md\:translate-x-px{
     --transform-translate-x: 1px;
   }
@@ -72109,6 +75123,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .md\:translate-x-95\%{
+    --transform-translate-x: 95%;
+  }
+
+  .md\:translate-x-98\%{
+    --transform-translate-x: 98%;
+  }
+
   .md\:-translate-x-1{
     --transform-translate-x: -0.25rem;
   }
@@ -72231,6 +75253,14 @@ readers do not read off random characters that represent icons */
 
   .md\:-translate-x-96{
     --transform-translate-x: -24rem;
+  }
+
+  .md\:-translate-x-102{
+    --transform-translate-x: -28rem;
+  }
+
+  .md\:-translate-x-200{
+    --transform-translate-x: -62rem;
   }
 
   .md\:-translate-x-px{
@@ -72361,6 +75391,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .md\:-translate-x-95\%{
+    --transform-translate-x: -95%;
+  }
+
+  .md\:-translate-x-98\%{
+    --transform-translate-x: -98%;
+  }
+
   .md\:translate-y-0{
     --transform-translate-y: 0;
   }
@@ -72487,6 +75525,14 @@ readers do not read off random characters that represent icons */
 
   .md\:translate-y-96{
     --transform-translate-y: 24rem;
+  }
+
+  .md\:translate-y-102{
+    --transform-translate-y: 28rem;
+  }
+
+  .md\:translate-y-200{
+    --transform-translate-y: 62rem;
   }
 
   .md\:translate-y-px{
@@ -72617,6 +75663,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .md\:translate-y-95\%{
+    --transform-translate-y: 95%;
+  }
+
+  .md\:translate-y-98\%{
+    --transform-translate-y: 98%;
+  }
+
   .md\:-translate-y-1{
     --transform-translate-y: -0.25rem;
   }
@@ -72739,6 +75793,14 @@ readers do not read off random characters that represent icons */
 
   .md\:-translate-y-96{
     --transform-translate-y: -24rem;
+  }
+
+  .md\:-translate-y-102{
+    --transform-translate-y: -28rem;
+  }
+
+  .md\:-translate-y-200{
+    --transform-translate-y: -62rem;
   }
 
   .md\:-translate-y-px{
@@ -72869,6 +75931,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: -100%;
   }
 
+  .md\:-translate-y-95\%{
+    --transform-translate-y: -95%;
+  }
+
+  .md\:-translate-y-98\%{
+    --transform-translate-y: -98%;
+  }
+
   .md\:hover\:translate-x-0:hover{
     --transform-translate-x: 0;
   }
@@ -72995,6 +76065,14 @@ readers do not read off random characters that represent icons */
 
   .md\:hover\:translate-x-96:hover{
     --transform-translate-x: 24rem;
+  }
+
+  .md\:hover\:translate-x-102:hover{
+    --transform-translate-x: 28rem;
+  }
+
+  .md\:hover\:translate-x-200:hover{
+    --transform-translate-x: 62rem;
   }
 
   .md\:hover\:translate-x-px:hover{
@@ -73125,6 +76203,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .md\:hover\:translate-x-95\%:hover{
+    --transform-translate-x: 95%;
+  }
+
+  .md\:hover\:translate-x-98\%:hover{
+    --transform-translate-x: 98%;
+  }
+
   .md\:hover\:-translate-x-1:hover{
     --transform-translate-x: -0.25rem;
   }
@@ -73247,6 +76333,14 @@ readers do not read off random characters that represent icons */
 
   .md\:hover\:-translate-x-96:hover{
     --transform-translate-x: -24rem;
+  }
+
+  .md\:hover\:-translate-x-102:hover{
+    --transform-translate-x: -28rem;
+  }
+
+  .md\:hover\:-translate-x-200:hover{
+    --transform-translate-x: -62rem;
   }
 
   .md\:hover\:-translate-x-px:hover{
@@ -73377,6 +76471,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .md\:hover\:-translate-x-95\%:hover{
+    --transform-translate-x: -95%;
+  }
+
+  .md\:hover\:-translate-x-98\%:hover{
+    --transform-translate-x: -98%;
+  }
+
   .md\:hover\:translate-y-0:hover{
     --transform-translate-y: 0;
   }
@@ -73503,6 +76605,14 @@ readers do not read off random characters that represent icons */
 
   .md\:hover\:translate-y-96:hover{
     --transform-translate-y: 24rem;
+  }
+
+  .md\:hover\:translate-y-102:hover{
+    --transform-translate-y: 28rem;
+  }
+
+  .md\:hover\:translate-y-200:hover{
+    --transform-translate-y: 62rem;
   }
 
   .md\:hover\:translate-y-px:hover{
@@ -73633,6 +76743,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .md\:hover\:translate-y-95\%:hover{
+    --transform-translate-y: 95%;
+  }
+
+  .md\:hover\:translate-y-98\%:hover{
+    --transform-translate-y: 98%;
+  }
+
   .md\:hover\:-translate-y-1:hover{
     --transform-translate-y: -0.25rem;
   }
@@ -73755,6 +76873,14 @@ readers do not read off random characters that represent icons */
 
   .md\:hover\:-translate-y-96:hover{
     --transform-translate-y: -24rem;
+  }
+
+  .md\:hover\:-translate-y-102:hover{
+    --transform-translate-y: -28rem;
+  }
+
+  .md\:hover\:-translate-y-200:hover{
+    --transform-translate-y: -62rem;
   }
 
   .md\:hover\:-translate-y-px:hover{
@@ -73885,6 +77011,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: -100%;
   }
 
+  .md\:hover\:-translate-y-95\%:hover{
+    --transform-translate-y: -95%;
+  }
+
+  .md\:hover\:-translate-y-98\%:hover{
+    --transform-translate-y: -98%;
+  }
+
   .md\:focus\:translate-x-0:focus{
     --transform-translate-x: 0;
   }
@@ -74011,6 +77145,14 @@ readers do not read off random characters that represent icons */
 
   .md\:focus\:translate-x-96:focus{
     --transform-translate-x: 24rem;
+  }
+
+  .md\:focus\:translate-x-102:focus{
+    --transform-translate-x: 28rem;
+  }
+
+  .md\:focus\:translate-x-200:focus{
+    --transform-translate-x: 62rem;
   }
 
   .md\:focus\:translate-x-px:focus{
@@ -74141,6 +77283,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .md\:focus\:translate-x-95\%:focus{
+    --transform-translate-x: 95%;
+  }
+
+  .md\:focus\:translate-x-98\%:focus{
+    --transform-translate-x: 98%;
+  }
+
   .md\:focus\:-translate-x-1:focus{
     --transform-translate-x: -0.25rem;
   }
@@ -74263,6 +77413,14 @@ readers do not read off random characters that represent icons */
 
   .md\:focus\:-translate-x-96:focus{
     --transform-translate-x: -24rem;
+  }
+
+  .md\:focus\:-translate-x-102:focus{
+    --transform-translate-x: -28rem;
+  }
+
+  .md\:focus\:-translate-x-200:focus{
+    --transform-translate-x: -62rem;
   }
 
   .md\:focus\:-translate-x-px:focus{
@@ -74393,6 +77551,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .md\:focus\:-translate-x-95\%:focus{
+    --transform-translate-x: -95%;
+  }
+
+  .md\:focus\:-translate-x-98\%:focus{
+    --transform-translate-x: -98%;
+  }
+
   .md\:focus\:translate-y-0:focus{
     --transform-translate-y: 0;
   }
@@ -74519,6 +77685,14 @@ readers do not read off random characters that represent icons */
 
   .md\:focus\:translate-y-96:focus{
     --transform-translate-y: 24rem;
+  }
+
+  .md\:focus\:translate-y-102:focus{
+    --transform-translate-y: 28rem;
+  }
+
+  .md\:focus\:translate-y-200:focus{
+    --transform-translate-y: 62rem;
   }
 
   .md\:focus\:translate-y-px:focus{
@@ -74649,6 +77823,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .md\:focus\:translate-y-95\%:focus{
+    --transform-translate-y: 95%;
+  }
+
+  .md\:focus\:translate-y-98\%:focus{
+    --transform-translate-y: 98%;
+  }
+
   .md\:focus\:-translate-y-1:focus{
     --transform-translate-y: -0.25rem;
   }
@@ -74771,6 +77953,14 @@ readers do not read off random characters that represent icons */
 
   .md\:focus\:-translate-y-96:focus{
     --transform-translate-y: -24rem;
+  }
+
+  .md\:focus\:-translate-y-102:focus{
+    --transform-translate-y: -28rem;
+  }
+
+  .md\:focus\:-translate-y-200:focus{
+    --transform-translate-y: -62rem;
   }
 
   .md\:focus\:-translate-y-px:focus{
@@ -74899,6 +78089,14 @@ readers do not read off random characters that represent icons */
 
   .md\:focus\:-translate-y-full:focus{
     --transform-translate-y: -100%;
+  }
+
+  .md\:focus\:-translate-y-95\%:focus{
+    --transform-translate-y: -95%;
+  }
+
+  .md\:focus\:-translate-y-98\%:focus{
+    --transform-translate-y: -98%;
   }
 
   .md\:skew-x-0{
@@ -76945,6 +80143,30 @@ readers do not read off random characters that represent icons */
     margin-left: calc(24rem * calc(1 - var(--space-x-reverse)));
   }
 
+  .lg\:space-y-102 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(28rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(28rem * var(--space-y-reverse));
+  }
+
+  .lg\:space-x-102 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(28rem * var(--space-x-reverse));
+    margin-left: calc(28rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .lg\:space-y-200 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(62rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(62rem * var(--space-y-reverse));
+  }
+
+  .lg\:space-x-200 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(62rem * var(--space-x-reverse));
+    margin-left: calc(62rem * calc(1 - var(--space-x-reverse)));
+  }
+
   .lg\:space-y-px > :not(template) ~ :not(template){
     --space-y-reverse: 0;
     margin-top: calc(1px * calc(1 - var(--space-y-reverse)));
@@ -77329,6 +80551,30 @@ readers do not read off random characters that represent icons */
     margin-left: calc(100% * calc(1 - var(--space-x-reverse)));
   }
 
+  .lg\:space-y-95\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(95% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(95% * var(--space-y-reverse));
+  }
+
+  .lg\:space-x-95\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(95% * var(--space-x-reverse));
+    margin-left: calc(95% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .lg\:space-y-98\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(98% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(98% * var(--space-y-reverse));
+  }
+
+  .lg\:space-x-98\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(98% * var(--space-x-reverse));
+    margin-left: calc(98% * calc(1 - var(--space-x-reverse)));
+  }
+
   .lg\:-space-y-1 > :not(template) ~ :not(template){
     --space-y-reverse: 0;
     margin-top: calc(-0.25rem * calc(1 - var(--space-y-reverse)));
@@ -77699,6 +80945,30 @@ readers do not read off random characters that represent icons */
     --space-x-reverse: 0;
     margin-right: calc(-24rem * var(--space-x-reverse));
     margin-left: calc(-24rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .lg\:-space-y-102 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-28rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-28rem * var(--space-y-reverse));
+  }
+
+  .lg\:-space-x-102 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-28rem * var(--space-x-reverse));
+    margin-left: calc(-28rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .lg\:-space-y-200 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-62rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-62rem * var(--space-y-reverse));
+  }
+
+  .lg\:-space-x-200 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-62rem * var(--space-x-reverse));
+    margin-left: calc(-62rem * calc(1 - var(--space-x-reverse)));
   }
 
   .lg\:-space-y-px > :not(template) ~ :not(template){
@@ -78083,6 +81353,30 @@ readers do not read off random characters that represent icons */
     --space-x-reverse: 0;
     margin-right: calc(-100% * var(--space-x-reverse));
     margin-left: calc(-100% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .lg\:-space-y-95\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-95% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-95% * var(--space-y-reverse));
+  }
+
+  .lg\:-space-x-95\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-95% * var(--space-x-reverse));
+    margin-left: calc(-95% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .lg\:-space-y-98\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-98% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-98% * var(--space-y-reverse));
+  }
+
+  .lg\:-space-x-98\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-98% * var(--space-x-reverse));
+    margin-left: calc(-98% * calc(1 - var(--space-x-reverse)));
   }
 
   .lg\:space-y-reverse > :not(template) ~ :not(template){
@@ -78722,6 +82016,30 @@ readers do not read off random characters that represent icons */
 
   .lg\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .lg\:bg-newsletter-pattern{
+    background-image: url('/images/newsletter.jpg');
+  }
+
+  .lg\:bg-cakes-pattern{
+    background-image: url('/images/service1.jpg');
+  }
+
+  .lg\:bg-cheesecakes-pattern{
+    background-image: url('/images/service2.jpg');
+  }
+
+  .lg\:bg-cupcakes-pattern{
+    background-image: url('/images/service3.jpg');
+  }
+
+  .lg\:bg-puligi-pattern{
+    background-image: url('/images/service4.jpg');
+  }
+
+  .lg\:bg-gallery-pattern{
+    background-image: url('/images/service4.jpg');
   }
 
   .lg\:from-transparent{
@@ -80642,6 +83960,10 @@ readers do not read off random characters that represent icons */
     font-family: Poppins, sans-serif;
   }
 
+  .lg\:font-courgette{
+    font-family: Courgette, cursive;
+  }
+
   .lg\:font-hairline{
     font-weight: 100;
   }
@@ -80878,6 +84200,14 @@ readers do not read off random characters that represent icons */
     height: 24rem;
   }
 
+  .lg\:h-102{
+    height: 28rem;
+  }
+
+  .lg\:h-200{
+    height: 62rem;
+  }
+
   .lg\:h-auto{
     height: auto;
   }
@@ -81008,6 +84338,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:h-full{
     height: 100%;
+  }
+
+  .lg\:h-95\%{
+    height: 95%;
+  }
+
+  .lg\:h-98\%{
+    height: 98%;
   }
 
   .lg\:h-screen{
@@ -81258,6 +84596,14 @@ readers do not read off random characters that represent icons */
     margin: 24rem;
   }
 
+  .lg\:m-102{
+    margin: 28rem;
+  }
+
+  .lg\:m-200{
+    margin: 62rem;
+  }
+
   .lg\:m-auto{
     margin: auto;
   }
@@ -81390,6 +84736,14 @@ readers do not read off random characters that represent icons */
     margin: 100%;
   }
 
+  .lg\:m-95\%{
+    margin: 95%;
+  }
+
+  .lg\:m-98\%{
+    margin: 98%;
+  }
+
   .lg\:-m-1{
     margin: -0.25rem;
   }
@@ -81512,6 +84866,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:-m-96{
     margin: -24rem;
+  }
+
+  .lg\:-m-102{
+    margin: -28rem;
+  }
+
+  .lg\:-m-200{
+    margin: -62rem;
   }
 
   .lg\:-m-px{
@@ -81640,6 +85002,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:-m-full{
     margin: -100%;
+  }
+
+  .lg\:-m-95\%{
+    margin: -95%;
+  }
+
+  .lg\:-m-98\%{
+    margin: -98%;
   }
 
   .lg\:my-0{
@@ -81960,6 +85330,26 @@ readers do not read off random characters that represent icons */
   .lg\:mx-96{
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .lg\:my-102{
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+  }
+
+  .lg\:mx-102{
+    margin-left: 28rem;
+    margin-right: 28rem;
+  }
+
+  .lg\:my-200{
+    margin-top: 62rem;
+    margin-bottom: 62rem;
+  }
+
+  .lg\:mx-200{
+    margin-left: 62rem;
+    margin-right: 62rem;
   }
 
   .lg\:my-auto{
@@ -82292,6 +85682,26 @@ readers do not read off random characters that represent icons */
     margin-right: 100%;
   }
 
+  .lg\:my-95\%{
+    margin-top: 95%;
+    margin-bottom: 95%;
+  }
+
+  .lg\:mx-95\%{
+    margin-left: 95%;
+    margin-right: 95%;
+  }
+
+  .lg\:my-98\%{
+    margin-top: 98%;
+    margin-bottom: 98%;
+  }
+
+  .lg\:mx-98\%{
+    margin-left: 98%;
+    margin-right: 98%;
+  }
+
   .lg\:-my-1{
     margin-top: -0.25rem;
     margin-bottom: -0.25rem;
@@ -82600,6 +86010,26 @@ readers do not read off random characters that represent icons */
   .lg\:-mx-96{
     margin-left: -24rem;
     margin-right: -24rem;
+  }
+
+  .lg\:-my-102{
+    margin-top: -28rem;
+    margin-bottom: -28rem;
+  }
+
+  .lg\:-mx-102{
+    margin-left: -28rem;
+    margin-right: -28rem;
+  }
+
+  .lg\:-my-200{
+    margin-top: -62rem;
+    margin-bottom: -62rem;
+  }
+
+  .lg\:-mx-200{
+    margin-left: -62rem;
+    margin-right: -62rem;
   }
 
   .lg\:-my-px{
@@ -82920,6 +86350,26 @@ readers do not read off random characters that represent icons */
   .lg\:-mx-full{
     margin-left: -100%;
     margin-right: -100%;
+  }
+
+  .lg\:-my-95\%{
+    margin-top: -95%;
+    margin-bottom: -95%;
+  }
+
+  .lg\:-mx-95\%{
+    margin-left: -95%;
+    margin-right: -95%;
+  }
+
+  .lg\:-my-98\%{
+    margin-top: -98%;
+    margin-bottom: -98%;
+  }
+
+  .lg\:-mx-98\%{
+    margin-left: -98%;
+    margin-right: -98%;
   }
 
   .lg\:mt-0{
@@ -83432,6 +86882,38 @@ readers do not read off random characters that represent icons */
 
   .lg\:ml-96{
     margin-left: 24rem;
+  }
+
+  .lg\:mt-102{
+    margin-top: 28rem;
+  }
+
+  .lg\:mr-102{
+    margin-right: 28rem;
+  }
+
+  .lg\:mb-102{
+    margin-bottom: 28rem;
+  }
+
+  .lg\:ml-102{
+    margin-left: 28rem;
+  }
+
+  .lg\:mt-200{
+    margin-top: 62rem;
+  }
+
+  .lg\:mr-200{
+    margin-right: 62rem;
+  }
+
+  .lg\:mb-200{
+    margin-bottom: 62rem;
+  }
+
+  .lg\:ml-200{
+    margin-left: 62rem;
   }
 
   .lg\:mt-auto{
@@ -83962,6 +87444,38 @@ readers do not read off random characters that represent icons */
     margin-left: 100%;
   }
 
+  .lg\:mt-95\%{
+    margin-top: 95%;
+  }
+
+  .lg\:mr-95\%{
+    margin-right: 95%;
+  }
+
+  .lg\:mb-95\%{
+    margin-bottom: 95%;
+  }
+
+  .lg\:ml-95\%{
+    margin-left: 95%;
+  }
+
+  .lg\:mt-98\%{
+    margin-top: 98%;
+  }
+
+  .lg\:mr-98\%{
+    margin-right: 98%;
+  }
+
+  .lg\:mb-98\%{
+    margin-bottom: 98%;
+  }
+
+  .lg\:ml-98\%{
+    margin-left: 98%;
+  }
+
   .lg\:-mt-1{
     margin-top: -0.25rem;
   }
@@ -84456,6 +87970,38 @@ readers do not read off random characters that represent icons */
 
   .lg\:-ml-96{
     margin-left: -24rem;
+  }
+
+  .lg\:-mt-102{
+    margin-top: -28rem;
+  }
+
+  .lg\:-mr-102{
+    margin-right: -28rem;
+  }
+
+  .lg\:-mb-102{
+    margin-bottom: -28rem;
+  }
+
+  .lg\:-ml-102{
+    margin-left: -28rem;
+  }
+
+  .lg\:-mt-200{
+    margin-top: -62rem;
+  }
+
+  .lg\:-mr-200{
+    margin-right: -62rem;
+  }
+
+  .lg\:-mb-200{
+    margin-bottom: -62rem;
+  }
+
+  .lg\:-ml-200{
+    margin-left: -62rem;
   }
 
   .lg\:-mt-px{
@@ -84970,6 +88516,38 @@ readers do not read off random characters that represent icons */
     margin-left: -100%;
   }
 
+  .lg\:-mt-95\%{
+    margin-top: -95%;
+  }
+
+  .lg\:-mr-95\%{
+    margin-right: -95%;
+  }
+
+  .lg\:-mb-95\%{
+    margin-bottom: -95%;
+  }
+
+  .lg\:-ml-95\%{
+    margin-left: -95%;
+  }
+
+  .lg\:-mt-98\%{
+    margin-top: -98%;
+  }
+
+  .lg\:-mr-98\%{
+    margin-right: -98%;
+  }
+
+  .lg\:-mb-98\%{
+    margin-bottom: -98%;
+  }
+
+  .lg\:-ml-98\%{
+    margin-left: -98%;
+  }
+
   .lg\:max-h-0{
     max-height: 0;
   }
@@ -85096,6 +88674,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:max-h-96{
     max-height: 24rem;
+  }
+
+  .lg\:max-h-102{
+    max-height: 28rem;
+  }
+
+  .lg\:max-h-200{
+    max-height: 62rem;
   }
 
   .lg\:max-h-screen{
@@ -85230,6 +88816,14 @@ readers do not read off random characters that represent icons */
     max-height: 100%;
   }
 
+  .lg\:max-h-95\%{
+    max-height: 95%;
+  }
+
+  .lg\:max-h-98\%{
+    max-height: 98%;
+  }
+
   .lg\:max-w-0{
     max-width: 0rem;
   }
@@ -85316,6 +88910,10 @@ readers do not read off random characters that represent icons */
 
   .lg\:max-w-screen-xl{
     max-width: 1280px;
+  }
+
+  .lg\:max-w-95\%{
+    max-width: 95%;
   }
 
   .lg\:min-h-0{
@@ -85793,6 +89391,14 @@ readers do not read off random characters that represent icons */
     padding: 24rem;
   }
 
+  .lg\:p-102{
+    padding: 28rem;
+  }
+
+  .lg\:p-200{
+    padding: 62rem;
+  }
+
   .lg\:p-px{
     padding: 1px;
   }
@@ -85919,6 +89525,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:p-full{
     padding: 100%;
+  }
+
+  .lg\:p-95\%{
+    padding: 95%;
+  }
+
+  .lg\:p-98\%{
+    padding: 98%;
   }
 
   .lg\:py-0{
@@ -86241,6 +89855,26 @@ readers do not read off random characters that represent icons */
     padding-right: 24rem;
   }
 
+  .lg\:py-102{
+    padding-top: 28rem;
+    padding-bottom: 28rem;
+  }
+
+  .lg\:px-102{
+    padding-left: 28rem;
+    padding-right: 28rem;
+  }
+
+  .lg\:py-200{
+    padding-top: 62rem;
+    padding-bottom: 62rem;
+  }
+
+  .lg\:px-200{
+    padding-left: 62rem;
+    padding-right: 62rem;
+  }
+
   .lg\:py-px{
     padding-top: 1px;
     padding-bottom: 1px;
@@ -86559,6 +90193,26 @@ readers do not read off random characters that represent icons */
   .lg\:px-full{
     padding-left: 100%;
     padding-right: 100%;
+  }
+
+  .lg\:py-95\%{
+    padding-top: 95%;
+    padding-bottom: 95%;
+  }
+
+  .lg\:px-95\%{
+    padding-left: 95%;
+    padding-right: 95%;
+  }
+
+  .lg\:py-98\%{
+    padding-top: 98%;
+    padding-bottom: 98%;
+  }
+
+  .lg\:px-98\%{
+    padding-left: 98%;
+    padding-right: 98%;
   }
 
   .lg\:pt-0{
@@ -87073,6 +90727,38 @@ readers do not read off random characters that represent icons */
     padding-left: 24rem;
   }
 
+  .lg\:pt-102{
+    padding-top: 28rem;
+  }
+
+  .lg\:pr-102{
+    padding-right: 28rem;
+  }
+
+  .lg\:pb-102{
+    padding-bottom: 28rem;
+  }
+
+  .lg\:pl-102{
+    padding-left: 28rem;
+  }
+
+  .lg\:pt-200{
+    padding-top: 62rem;
+  }
+
+  .lg\:pr-200{
+    padding-right: 62rem;
+  }
+
+  .lg\:pb-200{
+    padding-bottom: 62rem;
+  }
+
+  .lg\:pl-200{
+    padding-left: 62rem;
+  }
+
   .lg\:pt-px{
     padding-top: 1px;
   }
@@ -87583,6 +91269,38 @@ readers do not read off random characters that represent icons */
 
   .lg\:pl-full{
     padding-left: 100%;
+  }
+
+  .lg\:pt-95\%{
+    padding-top: 95%;
+  }
+
+  .lg\:pr-95\%{
+    padding-right: 95%;
+  }
+
+  .lg\:pb-95\%{
+    padding-bottom: 95%;
+  }
+
+  .lg\:pl-95\%{
+    padding-left: 95%;
+  }
+
+  .lg\:pt-98\%{
+    padding-top: 98%;
+  }
+
+  .lg\:pr-98\%{
+    padding-right: 98%;
+  }
+
+  .lg\:pb-98\%{
+    padding-bottom: 98%;
+  }
+
+  .lg\:pl-98\%{
+    padding-left: 98%;
   }
 
   .lg\:placeholder-transparent::-moz-placeholder{
@@ -88306,6 +92024,20 @@ readers do not read off random characters that represent icons */
     left: 24rem;
   }
 
+  .lg\:inset-102{
+    top: 28rem;
+    right: 28rem;
+    bottom: 28rem;
+    left: 28rem;
+  }
+
+  .lg\:inset-200{
+    top: 62rem;
+    right: 62rem;
+    bottom: 62rem;
+    left: 62rem;
+  }
+
   .lg\:inset-auto{
     top: auto;
     right: auto;
@@ -88535,6 +92267,20 @@ readers do not read off random characters that represent icons */
     right: 100%;
     bottom: 100%;
     left: 100%;
+  }
+
+  .lg\:inset-95\%{
+    top: 95%;
+    right: 95%;
+    bottom: 95%;
+    left: 95%;
+  }
+
+  .lg\:inset-98\%{
+    top: 98%;
+    right: 98%;
+    bottom: 98%;
+    left: 98%;
   }
 
   .lg\:inset-y-0{
@@ -88855,6 +92601,26 @@ readers do not read off random characters that represent icons */
   .lg\:inset-x-96{
     right: 24rem;
     left: 24rem;
+  }
+
+  .lg\:inset-y-102{
+    top: 28rem;
+    bottom: 28rem;
+  }
+
+  .lg\:inset-x-102{
+    right: 28rem;
+    left: 28rem;
+  }
+
+  .lg\:inset-y-200{
+    top: 62rem;
+    bottom: 62rem;
+  }
+
+  .lg\:inset-x-200{
+    right: 62rem;
+    left: 62rem;
   }
 
   .lg\:inset-y-auto{
@@ -89185,6 +92951,26 @@ readers do not read off random characters that represent icons */
   .lg\:inset-x-full{
     right: 100%;
     left: 100%;
+  }
+
+  .lg\:inset-y-95\%{
+    top: 95%;
+    bottom: 95%;
+  }
+
+  .lg\:inset-x-95\%{
+    right: 95%;
+    left: 95%;
+  }
+
+  .lg\:inset-y-98\%{
+    top: 98%;
+    bottom: 98%;
+  }
+
+  .lg\:inset-x-98\%{
+    right: 98%;
+    left: 98%;
   }
 
   .lg\:top-0{
@@ -89697,6 +93483,38 @@ readers do not read off random characters that represent icons */
 
   .lg\:left-96{
     left: 24rem;
+  }
+
+  .lg\:top-102{
+    top: 28rem;
+  }
+
+  .lg\:right-102{
+    right: 28rem;
+  }
+
+  .lg\:bottom-102{
+    bottom: 28rem;
+  }
+
+  .lg\:left-102{
+    left: 28rem;
+  }
+
+  .lg\:top-200{
+    top: 62rem;
+  }
+
+  .lg\:right-200{
+    right: 62rem;
+  }
+
+  .lg\:bottom-200{
+    bottom: 62rem;
+  }
+
+  .lg\:left-200{
+    left: 62rem;
   }
 
   .lg\:top-auto{
@@ -90225,6 +94043,38 @@ readers do not read off random characters that represent icons */
 
   .lg\:left-full{
     left: 100%;
+  }
+
+  .lg\:top-95\%{
+    top: 95%;
+  }
+
+  .lg\:right-95\%{
+    right: 95%;
+  }
+
+  .lg\:bottom-95\%{
+    bottom: 95%;
+  }
+
+  .lg\:left-95\%{
+    left: 95%;
+  }
+
+  .lg\:top-98\%{
+    top: 98%;
+  }
+
+  .lg\:right-98\%{
+    right: 98%;
+  }
+
+  .lg\:bottom-98\%{
+    bottom: 98%;
+  }
+
+  .lg\:left-98\%{
+    left: 98%;
   }
 
   .lg\:resize-none{
@@ -91565,6 +95415,14 @@ readers do not read off random characters that represent icons */
     width: 24rem;
   }
 
+  .lg\:w-102{
+    width: 28rem;
+  }
+
+  .lg\:w-200{
+    width: 62rem;
+  }
+
   .lg\:w-auto{
     width: auto;
   }
@@ -91697,6 +95555,14 @@ readers do not read off random characters that represent icons */
     width: 100%;
   }
 
+  .lg\:w-95\%{
+    width: 95%;
+  }
+
+  .lg\:w-98\%{
+    width: 98%;
+  }
+
   .lg\:w-screen{
     width: 100vw;
   }
@@ -91741,6 +95607,10 @@ readers do not read off random characters that represent icons */
     z-index: auto;
   }
 
+  .lg\:-z-10{
+    z-index: -10;
+  }
+
   .lg\:focus-within\:z-0:focus-within{
     z-index: 0;
   }
@@ -91769,6 +95639,10 @@ readers do not read off random characters that represent icons */
     z-index: auto;
   }
 
+  .lg\:focus-within\:-z-10:focus-within{
+    z-index: -10;
+  }
+
   .lg\:focus\:z-0:focus{
     z-index: 0;
   }
@@ -91795,6 +95669,10 @@ readers do not read off random characters that represent icons */
 
   .lg\:focus\:z-auto:focus{
     z-index: auto;
+  }
+
+  .lg\:focus\:-z-10:focus{
+    z-index: -10;
   }
 
   .lg\:gap-0{
@@ -91957,6 +95835,16 @@ readers do not read off random characters that represent icons */
     gap: 24rem;
   }
 
+  .lg\:gap-102{
+    grid-gap: 28rem;
+    gap: 28rem;
+  }
+
+  .lg\:gap-200{
+    grid-gap: 62rem;
+    gap: 62rem;
+  }
+
   .lg\:gap-px{
     grid-gap: 1px;
     gap: 1px;
@@ -92115,6 +96003,16 @@ readers do not read off random characters that represent icons */
   .lg\:gap-full{
     grid-gap: 100%;
     gap: 100%;
+  }
+
+  .lg\:gap-95\%{
+    grid-gap: 95%;
+    gap: 95%;
+  }
+
+  .lg\:gap-98\%{
+    grid-gap: 98%;
+    gap: 98%;
   }
 
   .lg\:col-gap-0{
@@ -92309,6 +96207,18 @@ readers do not read off random characters that represent icons */
          column-gap: 24rem;
   }
 
+  .lg\:col-gap-102{
+    grid-column-gap: 28rem;
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
+  .lg\:col-gap-200{
+    grid-column-gap: 62rem;
+    -moz-column-gap: 62rem;
+         column-gap: 62rem;
+  }
+
   .lg\:col-gap-px{
     grid-column-gap: 1px;
     -moz-column-gap: 1px;
@@ -92499,6 +96409,18 @@ readers do not read off random characters that represent icons */
     grid-column-gap: 100%;
     -moz-column-gap: 100%;
          column-gap: 100%;
+  }
+
+  .lg\:col-gap-95\%{
+    grid-column-gap: 95%;
+    -moz-column-gap: 95%;
+         column-gap: 95%;
+  }
+
+  .lg\:col-gap-98\%{
+    grid-column-gap: 98%;
+    -moz-column-gap: 98%;
+         column-gap: 98%;
   }
 
   .lg\:gap-x-0{
@@ -92693,6 +96615,18 @@ readers do not read off random characters that represent icons */
          column-gap: 24rem;
   }
 
+  .lg\:gap-x-102{
+    grid-column-gap: 28rem;
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
+  .lg\:gap-x-200{
+    grid-column-gap: 62rem;
+    -moz-column-gap: 62rem;
+         column-gap: 62rem;
+  }
+
   .lg\:gap-x-px{
     grid-column-gap: 1px;
     -moz-column-gap: 1px;
@@ -92885,6 +96819,18 @@ readers do not read off random characters that represent icons */
          column-gap: 100%;
   }
 
+  .lg\:gap-x-95\%{
+    grid-column-gap: 95%;
+    -moz-column-gap: 95%;
+         column-gap: 95%;
+  }
+
+  .lg\:gap-x-98\%{
+    grid-column-gap: 98%;
+    -moz-column-gap: 98%;
+         column-gap: 98%;
+  }
+
   .lg\:row-gap-0{
     grid-row-gap: 0;
     row-gap: 0;
@@ -93043,6 +96989,16 @@ readers do not read off random characters that represent icons */
   .lg\:row-gap-96{
     grid-row-gap: 24rem;
     row-gap: 24rem;
+  }
+
+  .lg\:row-gap-102{
+    grid-row-gap: 28rem;
+    row-gap: 28rem;
+  }
+
+  .lg\:row-gap-200{
+    grid-row-gap: 62rem;
+    row-gap: 62rem;
   }
 
   .lg\:row-gap-px{
@@ -93205,6 +97161,16 @@ readers do not read off random characters that represent icons */
     row-gap: 100%;
   }
 
+  .lg\:row-gap-95\%{
+    grid-row-gap: 95%;
+    row-gap: 95%;
+  }
+
+  .lg\:row-gap-98\%{
+    grid-row-gap: 98%;
+    row-gap: 98%;
+  }
+
   .lg\:gap-y-0{
     grid-row-gap: 0;
     row-gap: 0;
@@ -93365,6 +97331,16 @@ readers do not read off random characters that represent icons */
     row-gap: 24rem;
   }
 
+  .lg\:gap-y-102{
+    grid-row-gap: 28rem;
+    row-gap: 28rem;
+  }
+
+  .lg\:gap-y-200{
+    grid-row-gap: 62rem;
+    row-gap: 62rem;
+  }
+
   .lg\:gap-y-px{
     grid-row-gap: 1px;
     row-gap: 1px;
@@ -93523,6 +97499,16 @@ readers do not read off random characters that represent icons */
   .lg\:gap-y-full{
     grid-row-gap: 100%;
     row-gap: 100%;
+  }
+
+  .lg\:gap-y-95\%{
+    grid-row-gap: 95%;
+    row-gap: 95%;
+  }
+
+  .lg\:gap-y-98\%{
+    grid-row-gap: 98%;
+    row-gap: 98%;
   }
 
   .lg\:grid-flow-row{
@@ -94694,6 +98680,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 24rem;
   }
 
+  .lg\:translate-x-102{
+    --transform-translate-x: 28rem;
+  }
+
+  .lg\:translate-x-200{
+    --transform-translate-x: 62rem;
+  }
+
   .lg\:translate-x-px{
     --transform-translate-x: 1px;
   }
@@ -94822,6 +98816,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .lg\:translate-x-95\%{
+    --transform-translate-x: 95%;
+  }
+
+  .lg\:translate-x-98\%{
+    --transform-translate-x: 98%;
+  }
+
   .lg\:-translate-x-1{
     --transform-translate-x: -0.25rem;
   }
@@ -94944,6 +98946,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:-translate-x-96{
     --transform-translate-x: -24rem;
+  }
+
+  .lg\:-translate-x-102{
+    --transform-translate-x: -28rem;
+  }
+
+  .lg\:-translate-x-200{
+    --transform-translate-x: -62rem;
   }
 
   .lg\:-translate-x-px{
@@ -95074,6 +99084,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .lg\:-translate-x-95\%{
+    --transform-translate-x: -95%;
+  }
+
+  .lg\:-translate-x-98\%{
+    --transform-translate-x: -98%;
+  }
+
   .lg\:translate-y-0{
     --transform-translate-y: 0;
   }
@@ -95200,6 +99218,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:translate-y-96{
     --transform-translate-y: 24rem;
+  }
+
+  .lg\:translate-y-102{
+    --transform-translate-y: 28rem;
+  }
+
+  .lg\:translate-y-200{
+    --transform-translate-y: 62rem;
   }
 
   .lg\:translate-y-px{
@@ -95330,6 +99356,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .lg\:translate-y-95\%{
+    --transform-translate-y: 95%;
+  }
+
+  .lg\:translate-y-98\%{
+    --transform-translate-y: 98%;
+  }
+
   .lg\:-translate-y-1{
     --transform-translate-y: -0.25rem;
   }
@@ -95452,6 +99486,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:-translate-y-96{
     --transform-translate-y: -24rem;
+  }
+
+  .lg\:-translate-y-102{
+    --transform-translate-y: -28rem;
+  }
+
+  .lg\:-translate-y-200{
+    --transform-translate-y: -62rem;
   }
 
   .lg\:-translate-y-px{
@@ -95582,6 +99624,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: -100%;
   }
 
+  .lg\:-translate-y-95\%{
+    --transform-translate-y: -95%;
+  }
+
+  .lg\:-translate-y-98\%{
+    --transform-translate-y: -98%;
+  }
+
   .lg\:hover\:translate-x-0:hover{
     --transform-translate-x: 0;
   }
@@ -95708,6 +99758,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:hover\:translate-x-96:hover{
     --transform-translate-x: 24rem;
+  }
+
+  .lg\:hover\:translate-x-102:hover{
+    --transform-translate-x: 28rem;
+  }
+
+  .lg\:hover\:translate-x-200:hover{
+    --transform-translate-x: 62rem;
   }
 
   .lg\:hover\:translate-x-px:hover{
@@ -95838,6 +99896,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .lg\:hover\:translate-x-95\%:hover{
+    --transform-translate-x: 95%;
+  }
+
+  .lg\:hover\:translate-x-98\%:hover{
+    --transform-translate-x: 98%;
+  }
+
   .lg\:hover\:-translate-x-1:hover{
     --transform-translate-x: -0.25rem;
   }
@@ -95960,6 +100026,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:hover\:-translate-x-96:hover{
     --transform-translate-x: -24rem;
+  }
+
+  .lg\:hover\:-translate-x-102:hover{
+    --transform-translate-x: -28rem;
+  }
+
+  .lg\:hover\:-translate-x-200:hover{
+    --transform-translate-x: -62rem;
   }
 
   .lg\:hover\:-translate-x-px:hover{
@@ -96090,6 +100164,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .lg\:hover\:-translate-x-95\%:hover{
+    --transform-translate-x: -95%;
+  }
+
+  .lg\:hover\:-translate-x-98\%:hover{
+    --transform-translate-x: -98%;
+  }
+
   .lg\:hover\:translate-y-0:hover{
     --transform-translate-y: 0;
   }
@@ -96216,6 +100298,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:hover\:translate-y-96:hover{
     --transform-translate-y: 24rem;
+  }
+
+  .lg\:hover\:translate-y-102:hover{
+    --transform-translate-y: 28rem;
+  }
+
+  .lg\:hover\:translate-y-200:hover{
+    --transform-translate-y: 62rem;
   }
 
   .lg\:hover\:translate-y-px:hover{
@@ -96346,6 +100436,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .lg\:hover\:translate-y-95\%:hover{
+    --transform-translate-y: 95%;
+  }
+
+  .lg\:hover\:translate-y-98\%:hover{
+    --transform-translate-y: 98%;
+  }
+
   .lg\:hover\:-translate-y-1:hover{
     --transform-translate-y: -0.25rem;
   }
@@ -96468,6 +100566,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:hover\:-translate-y-96:hover{
     --transform-translate-y: -24rem;
+  }
+
+  .lg\:hover\:-translate-y-102:hover{
+    --transform-translate-y: -28rem;
+  }
+
+  .lg\:hover\:-translate-y-200:hover{
+    --transform-translate-y: -62rem;
   }
 
   .lg\:hover\:-translate-y-px:hover{
@@ -96598,6 +100704,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: -100%;
   }
 
+  .lg\:hover\:-translate-y-95\%:hover{
+    --transform-translate-y: -95%;
+  }
+
+  .lg\:hover\:-translate-y-98\%:hover{
+    --transform-translate-y: -98%;
+  }
+
   .lg\:focus\:translate-x-0:focus{
     --transform-translate-x: 0;
   }
@@ -96724,6 +100838,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:focus\:translate-x-96:focus{
     --transform-translate-x: 24rem;
+  }
+
+  .lg\:focus\:translate-x-102:focus{
+    --transform-translate-x: 28rem;
+  }
+
+  .lg\:focus\:translate-x-200:focus{
+    --transform-translate-x: 62rem;
   }
 
   .lg\:focus\:translate-x-px:focus{
@@ -96854,6 +100976,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .lg\:focus\:translate-x-95\%:focus{
+    --transform-translate-x: 95%;
+  }
+
+  .lg\:focus\:translate-x-98\%:focus{
+    --transform-translate-x: 98%;
+  }
+
   .lg\:focus\:-translate-x-1:focus{
     --transform-translate-x: -0.25rem;
   }
@@ -96976,6 +101106,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:focus\:-translate-x-96:focus{
     --transform-translate-x: -24rem;
+  }
+
+  .lg\:focus\:-translate-x-102:focus{
+    --transform-translate-x: -28rem;
+  }
+
+  .lg\:focus\:-translate-x-200:focus{
+    --transform-translate-x: -62rem;
   }
 
   .lg\:focus\:-translate-x-px:focus{
@@ -97106,6 +101244,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .lg\:focus\:-translate-x-95\%:focus{
+    --transform-translate-x: -95%;
+  }
+
+  .lg\:focus\:-translate-x-98\%:focus{
+    --transform-translate-x: -98%;
+  }
+
   .lg\:focus\:translate-y-0:focus{
     --transform-translate-y: 0;
   }
@@ -97232,6 +101378,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:focus\:translate-y-96:focus{
     --transform-translate-y: 24rem;
+  }
+
+  .lg\:focus\:translate-y-102:focus{
+    --transform-translate-y: 28rem;
+  }
+
+  .lg\:focus\:translate-y-200:focus{
+    --transform-translate-y: 62rem;
   }
 
   .lg\:focus\:translate-y-px:focus{
@@ -97362,6 +101516,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .lg\:focus\:translate-y-95\%:focus{
+    --transform-translate-y: 95%;
+  }
+
+  .lg\:focus\:translate-y-98\%:focus{
+    --transform-translate-y: 98%;
+  }
+
   .lg\:focus\:-translate-y-1:focus{
     --transform-translate-y: -0.25rem;
   }
@@ -97484,6 +101646,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:focus\:-translate-y-96:focus{
     --transform-translate-y: -24rem;
+  }
+
+  .lg\:focus\:-translate-y-102:focus{
+    --transform-translate-y: -28rem;
+  }
+
+  .lg\:focus\:-translate-y-200:focus{
+    --transform-translate-y: -62rem;
   }
 
   .lg\:focus\:-translate-y-px:focus{
@@ -97612,6 +101782,14 @@ readers do not read off random characters that represent icons */
 
   .lg\:focus\:-translate-y-full:focus{
     --transform-translate-y: -100%;
+  }
+
+  .lg\:focus\:-translate-y-95\%:focus{
+    --transform-translate-y: -95%;
+  }
+
+  .lg\:focus\:-translate-y-98\%:focus{
+    --transform-translate-y: -98%;
   }
 
   .lg\:skew-x-0{
@@ -99658,6 +103836,30 @@ readers do not read off random characters that represent icons */
     margin-left: calc(24rem * calc(1 - var(--space-x-reverse)));
   }
 
+  .xl\:space-y-102 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(28rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(28rem * var(--space-y-reverse));
+  }
+
+  .xl\:space-x-102 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(28rem * var(--space-x-reverse));
+    margin-left: calc(28rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .xl\:space-y-200 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(62rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(62rem * var(--space-y-reverse));
+  }
+
+  .xl\:space-x-200 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(62rem * var(--space-x-reverse));
+    margin-left: calc(62rem * calc(1 - var(--space-x-reverse)));
+  }
+
   .xl\:space-y-px > :not(template) ~ :not(template){
     --space-y-reverse: 0;
     margin-top: calc(1px * calc(1 - var(--space-y-reverse)));
@@ -100042,6 +104244,30 @@ readers do not read off random characters that represent icons */
     margin-left: calc(100% * calc(1 - var(--space-x-reverse)));
   }
 
+  .xl\:space-y-95\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(95% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(95% * var(--space-y-reverse));
+  }
+
+  .xl\:space-x-95\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(95% * var(--space-x-reverse));
+    margin-left: calc(95% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .xl\:space-y-98\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(98% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(98% * var(--space-y-reverse));
+  }
+
+  .xl\:space-x-98\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(98% * var(--space-x-reverse));
+    margin-left: calc(98% * calc(1 - var(--space-x-reverse)));
+  }
+
   .xl\:-space-y-1 > :not(template) ~ :not(template){
     --space-y-reverse: 0;
     margin-top: calc(-0.25rem * calc(1 - var(--space-y-reverse)));
@@ -100412,6 +104638,30 @@ readers do not read off random characters that represent icons */
     --space-x-reverse: 0;
     margin-right: calc(-24rem * var(--space-x-reverse));
     margin-left: calc(-24rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .xl\:-space-y-102 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-28rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-28rem * var(--space-y-reverse));
+  }
+
+  .xl\:-space-x-102 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-28rem * var(--space-x-reverse));
+    margin-left: calc(-28rem * calc(1 - var(--space-x-reverse)));
+  }
+
+  .xl\:-space-y-200 > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-62rem * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-62rem * var(--space-y-reverse));
+  }
+
+  .xl\:-space-x-200 > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-62rem * var(--space-x-reverse));
+    margin-left: calc(-62rem * calc(1 - var(--space-x-reverse)));
   }
 
   .xl\:-space-y-px > :not(template) ~ :not(template){
@@ -100796,6 +105046,30 @@ readers do not read off random characters that represent icons */
     --space-x-reverse: 0;
     margin-right: calc(-100% * var(--space-x-reverse));
     margin-left: calc(-100% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .xl\:-space-y-95\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-95% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-95% * var(--space-y-reverse));
+  }
+
+  .xl\:-space-x-95\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-95% * var(--space-x-reverse));
+    margin-left: calc(-95% * calc(1 - var(--space-x-reverse)));
+  }
+
+  .xl\:-space-y-98\% > :not(template) ~ :not(template){
+    --space-y-reverse: 0;
+    margin-top: calc(-98% * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(-98% * var(--space-y-reverse));
+  }
+
+  .xl\:-space-x-98\% > :not(template) ~ :not(template){
+    --space-x-reverse: 0;
+    margin-right: calc(-98% * var(--space-x-reverse));
+    margin-left: calc(-98% * calc(1 - var(--space-x-reverse)));
   }
 
   .xl\:space-y-reverse > :not(template) ~ :not(template){
@@ -101435,6 +105709,30 @@ readers do not read off random characters that represent icons */
 
   .xl\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .xl\:bg-newsletter-pattern{
+    background-image: url('/images/newsletter.jpg');
+  }
+
+  .xl\:bg-cakes-pattern{
+    background-image: url('/images/service1.jpg');
+  }
+
+  .xl\:bg-cheesecakes-pattern{
+    background-image: url('/images/service2.jpg');
+  }
+
+  .xl\:bg-cupcakes-pattern{
+    background-image: url('/images/service3.jpg');
+  }
+
+  .xl\:bg-puligi-pattern{
+    background-image: url('/images/service4.jpg');
+  }
+
+  .xl\:bg-gallery-pattern{
+    background-image: url('/images/service4.jpg');
   }
 
   .xl\:from-transparent{
@@ -103355,6 +107653,10 @@ readers do not read off random characters that represent icons */
     font-family: Poppins, sans-serif;
   }
 
+  .xl\:font-courgette{
+    font-family: Courgette, cursive;
+  }
+
   .xl\:font-hairline{
     font-weight: 100;
   }
@@ -103591,6 +107893,14 @@ readers do not read off random characters that represent icons */
     height: 24rem;
   }
 
+  .xl\:h-102{
+    height: 28rem;
+  }
+
+  .xl\:h-200{
+    height: 62rem;
+  }
+
   .xl\:h-auto{
     height: auto;
   }
@@ -103721,6 +108031,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:h-full{
     height: 100%;
+  }
+
+  .xl\:h-95\%{
+    height: 95%;
+  }
+
+  .xl\:h-98\%{
+    height: 98%;
   }
 
   .xl\:h-screen{
@@ -103971,6 +108289,14 @@ readers do not read off random characters that represent icons */
     margin: 24rem;
   }
 
+  .xl\:m-102{
+    margin: 28rem;
+  }
+
+  .xl\:m-200{
+    margin: 62rem;
+  }
+
   .xl\:m-auto{
     margin: auto;
   }
@@ -104103,6 +108429,14 @@ readers do not read off random characters that represent icons */
     margin: 100%;
   }
 
+  .xl\:m-95\%{
+    margin: 95%;
+  }
+
+  .xl\:m-98\%{
+    margin: 98%;
+  }
+
   .xl\:-m-1{
     margin: -0.25rem;
   }
@@ -104225,6 +108559,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:-m-96{
     margin: -24rem;
+  }
+
+  .xl\:-m-102{
+    margin: -28rem;
+  }
+
+  .xl\:-m-200{
+    margin: -62rem;
   }
 
   .xl\:-m-px{
@@ -104353,6 +108695,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:-m-full{
     margin: -100%;
+  }
+
+  .xl\:-m-95\%{
+    margin: -95%;
+  }
+
+  .xl\:-m-98\%{
+    margin: -98%;
   }
 
   .xl\:my-0{
@@ -104673,6 +109023,26 @@ readers do not read off random characters that represent icons */
   .xl\:mx-96{
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .xl\:my-102{
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+  }
+
+  .xl\:mx-102{
+    margin-left: 28rem;
+    margin-right: 28rem;
+  }
+
+  .xl\:my-200{
+    margin-top: 62rem;
+    margin-bottom: 62rem;
+  }
+
+  .xl\:mx-200{
+    margin-left: 62rem;
+    margin-right: 62rem;
   }
 
   .xl\:my-auto{
@@ -105005,6 +109375,26 @@ readers do not read off random characters that represent icons */
     margin-right: 100%;
   }
 
+  .xl\:my-95\%{
+    margin-top: 95%;
+    margin-bottom: 95%;
+  }
+
+  .xl\:mx-95\%{
+    margin-left: 95%;
+    margin-right: 95%;
+  }
+
+  .xl\:my-98\%{
+    margin-top: 98%;
+    margin-bottom: 98%;
+  }
+
+  .xl\:mx-98\%{
+    margin-left: 98%;
+    margin-right: 98%;
+  }
+
   .xl\:-my-1{
     margin-top: -0.25rem;
     margin-bottom: -0.25rem;
@@ -105313,6 +109703,26 @@ readers do not read off random characters that represent icons */
   .xl\:-mx-96{
     margin-left: -24rem;
     margin-right: -24rem;
+  }
+
+  .xl\:-my-102{
+    margin-top: -28rem;
+    margin-bottom: -28rem;
+  }
+
+  .xl\:-mx-102{
+    margin-left: -28rem;
+    margin-right: -28rem;
+  }
+
+  .xl\:-my-200{
+    margin-top: -62rem;
+    margin-bottom: -62rem;
+  }
+
+  .xl\:-mx-200{
+    margin-left: -62rem;
+    margin-right: -62rem;
   }
 
   .xl\:-my-px{
@@ -105633,6 +110043,26 @@ readers do not read off random characters that represent icons */
   .xl\:-mx-full{
     margin-left: -100%;
     margin-right: -100%;
+  }
+
+  .xl\:-my-95\%{
+    margin-top: -95%;
+    margin-bottom: -95%;
+  }
+
+  .xl\:-mx-95\%{
+    margin-left: -95%;
+    margin-right: -95%;
+  }
+
+  .xl\:-my-98\%{
+    margin-top: -98%;
+    margin-bottom: -98%;
+  }
+
+  .xl\:-mx-98\%{
+    margin-left: -98%;
+    margin-right: -98%;
   }
 
   .xl\:mt-0{
@@ -106145,6 +110575,38 @@ readers do not read off random characters that represent icons */
 
   .xl\:ml-96{
     margin-left: 24rem;
+  }
+
+  .xl\:mt-102{
+    margin-top: 28rem;
+  }
+
+  .xl\:mr-102{
+    margin-right: 28rem;
+  }
+
+  .xl\:mb-102{
+    margin-bottom: 28rem;
+  }
+
+  .xl\:ml-102{
+    margin-left: 28rem;
+  }
+
+  .xl\:mt-200{
+    margin-top: 62rem;
+  }
+
+  .xl\:mr-200{
+    margin-right: 62rem;
+  }
+
+  .xl\:mb-200{
+    margin-bottom: 62rem;
+  }
+
+  .xl\:ml-200{
+    margin-left: 62rem;
   }
 
   .xl\:mt-auto{
@@ -106675,6 +111137,38 @@ readers do not read off random characters that represent icons */
     margin-left: 100%;
   }
 
+  .xl\:mt-95\%{
+    margin-top: 95%;
+  }
+
+  .xl\:mr-95\%{
+    margin-right: 95%;
+  }
+
+  .xl\:mb-95\%{
+    margin-bottom: 95%;
+  }
+
+  .xl\:ml-95\%{
+    margin-left: 95%;
+  }
+
+  .xl\:mt-98\%{
+    margin-top: 98%;
+  }
+
+  .xl\:mr-98\%{
+    margin-right: 98%;
+  }
+
+  .xl\:mb-98\%{
+    margin-bottom: 98%;
+  }
+
+  .xl\:ml-98\%{
+    margin-left: 98%;
+  }
+
   .xl\:-mt-1{
     margin-top: -0.25rem;
   }
@@ -107169,6 +111663,38 @@ readers do not read off random characters that represent icons */
 
   .xl\:-ml-96{
     margin-left: -24rem;
+  }
+
+  .xl\:-mt-102{
+    margin-top: -28rem;
+  }
+
+  .xl\:-mr-102{
+    margin-right: -28rem;
+  }
+
+  .xl\:-mb-102{
+    margin-bottom: -28rem;
+  }
+
+  .xl\:-ml-102{
+    margin-left: -28rem;
+  }
+
+  .xl\:-mt-200{
+    margin-top: -62rem;
+  }
+
+  .xl\:-mr-200{
+    margin-right: -62rem;
+  }
+
+  .xl\:-mb-200{
+    margin-bottom: -62rem;
+  }
+
+  .xl\:-ml-200{
+    margin-left: -62rem;
   }
 
   .xl\:-mt-px{
@@ -107683,6 +112209,38 @@ readers do not read off random characters that represent icons */
     margin-left: -100%;
   }
 
+  .xl\:-mt-95\%{
+    margin-top: -95%;
+  }
+
+  .xl\:-mr-95\%{
+    margin-right: -95%;
+  }
+
+  .xl\:-mb-95\%{
+    margin-bottom: -95%;
+  }
+
+  .xl\:-ml-95\%{
+    margin-left: -95%;
+  }
+
+  .xl\:-mt-98\%{
+    margin-top: -98%;
+  }
+
+  .xl\:-mr-98\%{
+    margin-right: -98%;
+  }
+
+  .xl\:-mb-98\%{
+    margin-bottom: -98%;
+  }
+
+  .xl\:-ml-98\%{
+    margin-left: -98%;
+  }
+
   .xl\:max-h-0{
     max-height: 0;
   }
@@ -107809,6 +112367,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:max-h-96{
     max-height: 24rem;
+  }
+
+  .xl\:max-h-102{
+    max-height: 28rem;
+  }
+
+  .xl\:max-h-200{
+    max-height: 62rem;
   }
 
   .xl\:max-h-screen{
@@ -107943,6 +112509,14 @@ readers do not read off random characters that represent icons */
     max-height: 100%;
   }
 
+  .xl\:max-h-95\%{
+    max-height: 95%;
+  }
+
+  .xl\:max-h-98\%{
+    max-height: 98%;
+  }
+
   .xl\:max-w-0{
     max-width: 0rem;
   }
@@ -108029,6 +112603,10 @@ readers do not read off random characters that represent icons */
 
   .xl\:max-w-screen-xl{
     max-width: 1280px;
+  }
+
+  .xl\:max-w-95\%{
+    max-width: 95%;
   }
 
   .xl\:min-h-0{
@@ -108506,6 +113084,14 @@ readers do not read off random characters that represent icons */
     padding: 24rem;
   }
 
+  .xl\:p-102{
+    padding: 28rem;
+  }
+
+  .xl\:p-200{
+    padding: 62rem;
+  }
+
   .xl\:p-px{
     padding: 1px;
   }
@@ -108632,6 +113218,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:p-full{
     padding: 100%;
+  }
+
+  .xl\:p-95\%{
+    padding: 95%;
+  }
+
+  .xl\:p-98\%{
+    padding: 98%;
   }
 
   .xl\:py-0{
@@ -108954,6 +113548,26 @@ readers do not read off random characters that represent icons */
     padding-right: 24rem;
   }
 
+  .xl\:py-102{
+    padding-top: 28rem;
+    padding-bottom: 28rem;
+  }
+
+  .xl\:px-102{
+    padding-left: 28rem;
+    padding-right: 28rem;
+  }
+
+  .xl\:py-200{
+    padding-top: 62rem;
+    padding-bottom: 62rem;
+  }
+
+  .xl\:px-200{
+    padding-left: 62rem;
+    padding-right: 62rem;
+  }
+
   .xl\:py-px{
     padding-top: 1px;
     padding-bottom: 1px;
@@ -109272,6 +113886,26 @@ readers do not read off random characters that represent icons */
   .xl\:px-full{
     padding-left: 100%;
     padding-right: 100%;
+  }
+
+  .xl\:py-95\%{
+    padding-top: 95%;
+    padding-bottom: 95%;
+  }
+
+  .xl\:px-95\%{
+    padding-left: 95%;
+    padding-right: 95%;
+  }
+
+  .xl\:py-98\%{
+    padding-top: 98%;
+    padding-bottom: 98%;
+  }
+
+  .xl\:px-98\%{
+    padding-left: 98%;
+    padding-right: 98%;
   }
 
   .xl\:pt-0{
@@ -109786,6 +114420,38 @@ readers do not read off random characters that represent icons */
     padding-left: 24rem;
   }
 
+  .xl\:pt-102{
+    padding-top: 28rem;
+  }
+
+  .xl\:pr-102{
+    padding-right: 28rem;
+  }
+
+  .xl\:pb-102{
+    padding-bottom: 28rem;
+  }
+
+  .xl\:pl-102{
+    padding-left: 28rem;
+  }
+
+  .xl\:pt-200{
+    padding-top: 62rem;
+  }
+
+  .xl\:pr-200{
+    padding-right: 62rem;
+  }
+
+  .xl\:pb-200{
+    padding-bottom: 62rem;
+  }
+
+  .xl\:pl-200{
+    padding-left: 62rem;
+  }
+
   .xl\:pt-px{
     padding-top: 1px;
   }
@@ -110296,6 +114962,38 @@ readers do not read off random characters that represent icons */
 
   .xl\:pl-full{
     padding-left: 100%;
+  }
+
+  .xl\:pt-95\%{
+    padding-top: 95%;
+  }
+
+  .xl\:pr-95\%{
+    padding-right: 95%;
+  }
+
+  .xl\:pb-95\%{
+    padding-bottom: 95%;
+  }
+
+  .xl\:pl-95\%{
+    padding-left: 95%;
+  }
+
+  .xl\:pt-98\%{
+    padding-top: 98%;
+  }
+
+  .xl\:pr-98\%{
+    padding-right: 98%;
+  }
+
+  .xl\:pb-98\%{
+    padding-bottom: 98%;
+  }
+
+  .xl\:pl-98\%{
+    padding-left: 98%;
   }
 
   .xl\:placeholder-transparent::-moz-placeholder{
@@ -111019,6 +115717,20 @@ readers do not read off random characters that represent icons */
     left: 24rem;
   }
 
+  .xl\:inset-102{
+    top: 28rem;
+    right: 28rem;
+    bottom: 28rem;
+    left: 28rem;
+  }
+
+  .xl\:inset-200{
+    top: 62rem;
+    right: 62rem;
+    bottom: 62rem;
+    left: 62rem;
+  }
+
   .xl\:inset-auto{
     top: auto;
     right: auto;
@@ -111248,6 +115960,20 @@ readers do not read off random characters that represent icons */
     right: 100%;
     bottom: 100%;
     left: 100%;
+  }
+
+  .xl\:inset-95\%{
+    top: 95%;
+    right: 95%;
+    bottom: 95%;
+    left: 95%;
+  }
+
+  .xl\:inset-98\%{
+    top: 98%;
+    right: 98%;
+    bottom: 98%;
+    left: 98%;
   }
 
   .xl\:inset-y-0{
@@ -111568,6 +116294,26 @@ readers do not read off random characters that represent icons */
   .xl\:inset-x-96{
     right: 24rem;
     left: 24rem;
+  }
+
+  .xl\:inset-y-102{
+    top: 28rem;
+    bottom: 28rem;
+  }
+
+  .xl\:inset-x-102{
+    right: 28rem;
+    left: 28rem;
+  }
+
+  .xl\:inset-y-200{
+    top: 62rem;
+    bottom: 62rem;
+  }
+
+  .xl\:inset-x-200{
+    right: 62rem;
+    left: 62rem;
   }
 
   .xl\:inset-y-auto{
@@ -111898,6 +116644,26 @@ readers do not read off random characters that represent icons */
   .xl\:inset-x-full{
     right: 100%;
     left: 100%;
+  }
+
+  .xl\:inset-y-95\%{
+    top: 95%;
+    bottom: 95%;
+  }
+
+  .xl\:inset-x-95\%{
+    right: 95%;
+    left: 95%;
+  }
+
+  .xl\:inset-y-98\%{
+    top: 98%;
+    bottom: 98%;
+  }
+
+  .xl\:inset-x-98\%{
+    right: 98%;
+    left: 98%;
   }
 
   .xl\:top-0{
@@ -112410,6 +117176,38 @@ readers do not read off random characters that represent icons */
 
   .xl\:left-96{
     left: 24rem;
+  }
+
+  .xl\:top-102{
+    top: 28rem;
+  }
+
+  .xl\:right-102{
+    right: 28rem;
+  }
+
+  .xl\:bottom-102{
+    bottom: 28rem;
+  }
+
+  .xl\:left-102{
+    left: 28rem;
+  }
+
+  .xl\:top-200{
+    top: 62rem;
+  }
+
+  .xl\:right-200{
+    right: 62rem;
+  }
+
+  .xl\:bottom-200{
+    bottom: 62rem;
+  }
+
+  .xl\:left-200{
+    left: 62rem;
   }
 
   .xl\:top-auto{
@@ -112938,6 +117736,38 @@ readers do not read off random characters that represent icons */
 
   .xl\:left-full{
     left: 100%;
+  }
+
+  .xl\:top-95\%{
+    top: 95%;
+  }
+
+  .xl\:right-95\%{
+    right: 95%;
+  }
+
+  .xl\:bottom-95\%{
+    bottom: 95%;
+  }
+
+  .xl\:left-95\%{
+    left: 95%;
+  }
+
+  .xl\:top-98\%{
+    top: 98%;
+  }
+
+  .xl\:right-98\%{
+    right: 98%;
+  }
+
+  .xl\:bottom-98\%{
+    bottom: 98%;
+  }
+
+  .xl\:left-98\%{
+    left: 98%;
   }
 
   .xl\:resize-none{
@@ -114278,6 +119108,14 @@ readers do not read off random characters that represent icons */
     width: 24rem;
   }
 
+  .xl\:w-102{
+    width: 28rem;
+  }
+
+  .xl\:w-200{
+    width: 62rem;
+  }
+
   .xl\:w-auto{
     width: auto;
   }
@@ -114410,6 +119248,14 @@ readers do not read off random characters that represent icons */
     width: 100%;
   }
 
+  .xl\:w-95\%{
+    width: 95%;
+  }
+
+  .xl\:w-98\%{
+    width: 98%;
+  }
+
   .xl\:w-screen{
     width: 100vw;
   }
@@ -114454,6 +119300,10 @@ readers do not read off random characters that represent icons */
     z-index: auto;
   }
 
+  .xl\:-z-10{
+    z-index: -10;
+  }
+
   .xl\:focus-within\:z-0:focus-within{
     z-index: 0;
   }
@@ -114482,6 +119332,10 @@ readers do not read off random characters that represent icons */
     z-index: auto;
   }
 
+  .xl\:focus-within\:-z-10:focus-within{
+    z-index: -10;
+  }
+
   .xl\:focus\:z-0:focus{
     z-index: 0;
   }
@@ -114508,6 +119362,10 @@ readers do not read off random characters that represent icons */
 
   .xl\:focus\:z-auto:focus{
     z-index: auto;
+  }
+
+  .xl\:focus\:-z-10:focus{
+    z-index: -10;
   }
 
   .xl\:gap-0{
@@ -114670,6 +119528,16 @@ readers do not read off random characters that represent icons */
     gap: 24rem;
   }
 
+  .xl\:gap-102{
+    grid-gap: 28rem;
+    gap: 28rem;
+  }
+
+  .xl\:gap-200{
+    grid-gap: 62rem;
+    gap: 62rem;
+  }
+
   .xl\:gap-px{
     grid-gap: 1px;
     gap: 1px;
@@ -114828,6 +119696,16 @@ readers do not read off random characters that represent icons */
   .xl\:gap-full{
     grid-gap: 100%;
     gap: 100%;
+  }
+
+  .xl\:gap-95\%{
+    grid-gap: 95%;
+    gap: 95%;
+  }
+
+  .xl\:gap-98\%{
+    grid-gap: 98%;
+    gap: 98%;
   }
 
   .xl\:col-gap-0{
@@ -115022,6 +119900,18 @@ readers do not read off random characters that represent icons */
          column-gap: 24rem;
   }
 
+  .xl\:col-gap-102{
+    grid-column-gap: 28rem;
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
+  .xl\:col-gap-200{
+    grid-column-gap: 62rem;
+    -moz-column-gap: 62rem;
+         column-gap: 62rem;
+  }
+
   .xl\:col-gap-px{
     grid-column-gap: 1px;
     -moz-column-gap: 1px;
@@ -115212,6 +120102,18 @@ readers do not read off random characters that represent icons */
     grid-column-gap: 100%;
     -moz-column-gap: 100%;
          column-gap: 100%;
+  }
+
+  .xl\:col-gap-95\%{
+    grid-column-gap: 95%;
+    -moz-column-gap: 95%;
+         column-gap: 95%;
+  }
+
+  .xl\:col-gap-98\%{
+    grid-column-gap: 98%;
+    -moz-column-gap: 98%;
+         column-gap: 98%;
   }
 
   .xl\:gap-x-0{
@@ -115406,6 +120308,18 @@ readers do not read off random characters that represent icons */
          column-gap: 24rem;
   }
 
+  .xl\:gap-x-102{
+    grid-column-gap: 28rem;
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
+  .xl\:gap-x-200{
+    grid-column-gap: 62rem;
+    -moz-column-gap: 62rem;
+         column-gap: 62rem;
+  }
+
   .xl\:gap-x-px{
     grid-column-gap: 1px;
     -moz-column-gap: 1px;
@@ -115598,6 +120512,18 @@ readers do not read off random characters that represent icons */
          column-gap: 100%;
   }
 
+  .xl\:gap-x-95\%{
+    grid-column-gap: 95%;
+    -moz-column-gap: 95%;
+         column-gap: 95%;
+  }
+
+  .xl\:gap-x-98\%{
+    grid-column-gap: 98%;
+    -moz-column-gap: 98%;
+         column-gap: 98%;
+  }
+
   .xl\:row-gap-0{
     grid-row-gap: 0;
     row-gap: 0;
@@ -115756,6 +120682,16 @@ readers do not read off random characters that represent icons */
   .xl\:row-gap-96{
     grid-row-gap: 24rem;
     row-gap: 24rem;
+  }
+
+  .xl\:row-gap-102{
+    grid-row-gap: 28rem;
+    row-gap: 28rem;
+  }
+
+  .xl\:row-gap-200{
+    grid-row-gap: 62rem;
+    row-gap: 62rem;
   }
 
   .xl\:row-gap-px{
@@ -115918,6 +120854,16 @@ readers do not read off random characters that represent icons */
     row-gap: 100%;
   }
 
+  .xl\:row-gap-95\%{
+    grid-row-gap: 95%;
+    row-gap: 95%;
+  }
+
+  .xl\:row-gap-98\%{
+    grid-row-gap: 98%;
+    row-gap: 98%;
+  }
+
   .xl\:gap-y-0{
     grid-row-gap: 0;
     row-gap: 0;
@@ -116078,6 +121024,16 @@ readers do not read off random characters that represent icons */
     row-gap: 24rem;
   }
 
+  .xl\:gap-y-102{
+    grid-row-gap: 28rem;
+    row-gap: 28rem;
+  }
+
+  .xl\:gap-y-200{
+    grid-row-gap: 62rem;
+    row-gap: 62rem;
+  }
+
   .xl\:gap-y-px{
     grid-row-gap: 1px;
     row-gap: 1px;
@@ -116236,6 +121192,16 @@ readers do not read off random characters that represent icons */
   .xl\:gap-y-full{
     grid-row-gap: 100%;
     row-gap: 100%;
+  }
+
+  .xl\:gap-y-95\%{
+    grid-row-gap: 95%;
+    row-gap: 95%;
+  }
+
+  .xl\:gap-y-98\%{
+    grid-row-gap: 98%;
+    row-gap: 98%;
   }
 
   .xl\:grid-flow-row{
@@ -117407,6 +122373,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 24rem;
   }
 
+  .xl\:translate-x-102{
+    --transform-translate-x: 28rem;
+  }
+
+  .xl\:translate-x-200{
+    --transform-translate-x: 62rem;
+  }
+
   .xl\:translate-x-px{
     --transform-translate-x: 1px;
   }
@@ -117535,6 +122509,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .xl\:translate-x-95\%{
+    --transform-translate-x: 95%;
+  }
+
+  .xl\:translate-x-98\%{
+    --transform-translate-x: 98%;
+  }
+
   .xl\:-translate-x-1{
     --transform-translate-x: -0.25rem;
   }
@@ -117657,6 +122639,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:-translate-x-96{
     --transform-translate-x: -24rem;
+  }
+
+  .xl\:-translate-x-102{
+    --transform-translate-x: -28rem;
+  }
+
+  .xl\:-translate-x-200{
+    --transform-translate-x: -62rem;
   }
 
   .xl\:-translate-x-px{
@@ -117787,6 +122777,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .xl\:-translate-x-95\%{
+    --transform-translate-x: -95%;
+  }
+
+  .xl\:-translate-x-98\%{
+    --transform-translate-x: -98%;
+  }
+
   .xl\:translate-y-0{
     --transform-translate-y: 0;
   }
@@ -117913,6 +122911,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:translate-y-96{
     --transform-translate-y: 24rem;
+  }
+
+  .xl\:translate-y-102{
+    --transform-translate-y: 28rem;
+  }
+
+  .xl\:translate-y-200{
+    --transform-translate-y: 62rem;
   }
 
   .xl\:translate-y-px{
@@ -118043,6 +123049,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .xl\:translate-y-95\%{
+    --transform-translate-y: 95%;
+  }
+
+  .xl\:translate-y-98\%{
+    --transform-translate-y: 98%;
+  }
+
   .xl\:-translate-y-1{
     --transform-translate-y: -0.25rem;
   }
@@ -118165,6 +123179,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:-translate-y-96{
     --transform-translate-y: -24rem;
+  }
+
+  .xl\:-translate-y-102{
+    --transform-translate-y: -28rem;
+  }
+
+  .xl\:-translate-y-200{
+    --transform-translate-y: -62rem;
   }
 
   .xl\:-translate-y-px{
@@ -118295,6 +123317,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: -100%;
   }
 
+  .xl\:-translate-y-95\%{
+    --transform-translate-y: -95%;
+  }
+
+  .xl\:-translate-y-98\%{
+    --transform-translate-y: -98%;
+  }
+
   .xl\:hover\:translate-x-0:hover{
     --transform-translate-x: 0;
   }
@@ -118421,6 +123451,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:hover\:translate-x-96:hover{
     --transform-translate-x: 24rem;
+  }
+
+  .xl\:hover\:translate-x-102:hover{
+    --transform-translate-x: 28rem;
+  }
+
+  .xl\:hover\:translate-x-200:hover{
+    --transform-translate-x: 62rem;
   }
 
   .xl\:hover\:translate-x-px:hover{
@@ -118551,6 +123589,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .xl\:hover\:translate-x-95\%:hover{
+    --transform-translate-x: 95%;
+  }
+
+  .xl\:hover\:translate-x-98\%:hover{
+    --transform-translate-x: 98%;
+  }
+
   .xl\:hover\:-translate-x-1:hover{
     --transform-translate-x: -0.25rem;
   }
@@ -118673,6 +123719,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:hover\:-translate-x-96:hover{
     --transform-translate-x: -24rem;
+  }
+
+  .xl\:hover\:-translate-x-102:hover{
+    --transform-translate-x: -28rem;
+  }
+
+  .xl\:hover\:-translate-x-200:hover{
+    --transform-translate-x: -62rem;
   }
 
   .xl\:hover\:-translate-x-px:hover{
@@ -118803,6 +123857,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .xl\:hover\:-translate-x-95\%:hover{
+    --transform-translate-x: -95%;
+  }
+
+  .xl\:hover\:-translate-x-98\%:hover{
+    --transform-translate-x: -98%;
+  }
+
   .xl\:hover\:translate-y-0:hover{
     --transform-translate-y: 0;
   }
@@ -118929,6 +123991,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:hover\:translate-y-96:hover{
     --transform-translate-y: 24rem;
+  }
+
+  .xl\:hover\:translate-y-102:hover{
+    --transform-translate-y: 28rem;
+  }
+
+  .xl\:hover\:translate-y-200:hover{
+    --transform-translate-y: 62rem;
   }
 
   .xl\:hover\:translate-y-px:hover{
@@ -119059,6 +124129,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .xl\:hover\:translate-y-95\%:hover{
+    --transform-translate-y: 95%;
+  }
+
+  .xl\:hover\:translate-y-98\%:hover{
+    --transform-translate-y: 98%;
+  }
+
   .xl\:hover\:-translate-y-1:hover{
     --transform-translate-y: -0.25rem;
   }
@@ -119181,6 +124259,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:hover\:-translate-y-96:hover{
     --transform-translate-y: -24rem;
+  }
+
+  .xl\:hover\:-translate-y-102:hover{
+    --transform-translate-y: -28rem;
+  }
+
+  .xl\:hover\:-translate-y-200:hover{
+    --transform-translate-y: -62rem;
   }
 
   .xl\:hover\:-translate-y-px:hover{
@@ -119311,6 +124397,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: -100%;
   }
 
+  .xl\:hover\:-translate-y-95\%:hover{
+    --transform-translate-y: -95%;
+  }
+
+  .xl\:hover\:-translate-y-98\%:hover{
+    --transform-translate-y: -98%;
+  }
+
   .xl\:focus\:translate-x-0:focus{
     --transform-translate-x: 0;
   }
@@ -119437,6 +124531,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:focus\:translate-x-96:focus{
     --transform-translate-x: 24rem;
+  }
+
+  .xl\:focus\:translate-x-102:focus{
+    --transform-translate-x: 28rem;
+  }
+
+  .xl\:focus\:translate-x-200:focus{
+    --transform-translate-x: 62rem;
   }
 
   .xl\:focus\:translate-x-px:focus{
@@ -119567,6 +124669,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: 100%;
   }
 
+  .xl\:focus\:translate-x-95\%:focus{
+    --transform-translate-x: 95%;
+  }
+
+  .xl\:focus\:translate-x-98\%:focus{
+    --transform-translate-x: 98%;
+  }
+
   .xl\:focus\:-translate-x-1:focus{
     --transform-translate-x: -0.25rem;
   }
@@ -119689,6 +124799,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:focus\:-translate-x-96:focus{
     --transform-translate-x: -24rem;
+  }
+
+  .xl\:focus\:-translate-x-102:focus{
+    --transform-translate-x: -28rem;
+  }
+
+  .xl\:focus\:-translate-x-200:focus{
+    --transform-translate-x: -62rem;
   }
 
   .xl\:focus\:-translate-x-px:focus{
@@ -119819,6 +124937,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-x: -100%;
   }
 
+  .xl\:focus\:-translate-x-95\%:focus{
+    --transform-translate-x: -95%;
+  }
+
+  .xl\:focus\:-translate-x-98\%:focus{
+    --transform-translate-x: -98%;
+  }
+
   .xl\:focus\:translate-y-0:focus{
     --transform-translate-y: 0;
   }
@@ -119945,6 +125071,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:focus\:translate-y-96:focus{
     --transform-translate-y: 24rem;
+  }
+
+  .xl\:focus\:translate-y-102:focus{
+    --transform-translate-y: 28rem;
+  }
+
+  .xl\:focus\:translate-y-200:focus{
+    --transform-translate-y: 62rem;
   }
 
   .xl\:focus\:translate-y-px:focus{
@@ -120075,6 +125209,14 @@ readers do not read off random characters that represent icons */
     --transform-translate-y: 100%;
   }
 
+  .xl\:focus\:translate-y-95\%:focus{
+    --transform-translate-y: 95%;
+  }
+
+  .xl\:focus\:translate-y-98\%:focus{
+    --transform-translate-y: 98%;
+  }
+
   .xl\:focus\:-translate-y-1:focus{
     --transform-translate-y: -0.25rem;
   }
@@ -120197,6 +125339,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:focus\:-translate-y-96:focus{
     --transform-translate-y: -24rem;
+  }
+
+  .xl\:focus\:-translate-y-102:focus{
+    --transform-translate-y: -28rem;
+  }
+
+  .xl\:focus\:-translate-y-200:focus{
+    --transform-translate-y: -62rem;
   }
 
   .xl\:focus\:-translate-y-px:focus{
@@ -120325,6 +125475,14 @@ readers do not read off random characters that represent icons */
 
   .xl\:focus\:-translate-y-full:focus{
     --transform-translate-y: -100%;
+  }
+
+  .xl\:focus\:-translate-y-95\%:focus{
+    --transform-translate-y: -95%;
+  }
+
+  .xl\:focus\:-translate-y-98\%:focus{
+    --transform-translate-y: -98%;
   }
 
   .xl\:skew-x-0{
