@@ -30,7 +30,7 @@ class AppServiceProvider extends ServiceProvider
         $questions_data = $questions->get_questions();
         View::share('questions', $questions_data);
 
-        if(env('APP_ENV') !== 'locel') {
+        if(env('APP_ENV') !== 'local') {
             URL::forceScheme('https');
         }
     }
