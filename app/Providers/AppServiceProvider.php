@@ -28,5 +28,9 @@ class AppServiceProvider extends ServiceProvider
         $questions = new FAQData();
         $questions_data = $questions->get_questions();
         View::share('questions', $questions_data);
+
+        if(env('APP_ENV') !== 'locel') {
+            URL::forceScheme('https');
+        }
     }
 }
