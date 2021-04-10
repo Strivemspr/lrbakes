@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="services-pattern bg-{{$service->service}}-pattern h-102 bg-cover bg-center bg-no-repeat relative flex items-center justify-center mb-44 md:mb-56 lg:mb-102">
+    <div class="services-pattern bg-{{$service->service}}-pattern h-60 md:h-80 lg:h-102 bg-cover bg-center bg-no-repeat relative flex items-center justify-center mb-80 lg:mb-102">
         <div class="container w-95% py-16 px-2 lg:p-24 absolute top-1/4 lg:top-1/2 bg-grey-light z-40">
             <div class="text-center">
                 <h2 class="text-2xl text-black-light">Services</h2>
@@ -28,8 +28,4 @@
 
     {{-- Newsletter --}}
     @include('includes.newsletter')
-
-    {{-- Footer --}}
-    @include('includes.footer') 
-
 @endsection

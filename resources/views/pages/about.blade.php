@@ -10,8 +10,4 @@
 
     {{-- Newsletter --}}
     @include('includes.newsletter')
-
-    {{-- Footer --}}
-    @include('includes.footer') 
-
 @endsection

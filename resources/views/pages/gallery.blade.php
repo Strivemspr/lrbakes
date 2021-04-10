@@ -3,7 +3,7 @@
 @section('title', 'Gallery')
 
 @section('content')
-    <div class="services-pattern bg-gallery-pattern h-102 bg-cover bg-center bg-no-repeat relative flex items-center justify-center mb-24 md:mb-32 lg:mb-80">
+    <div class="services-pattern bg-gallery-pattern h-60 md:h-80 lg:h-102 bg-cover bg-center bg-no-repeat relative flex items-center justify-center mb-56 lg:mb-80">
         <div class="container w-95% py-16 px-2 lg:p-24 absolute top-1/4 lg:top-1/2 bg-grey-light z-40">
             <div class="text-center">
                 <h2 class="text-2xl text-black-light">Our Lates Cakes</h2>
@@ -46,8 +46,4 @@
 
     {{-- Newsletter --}}
     @include('includes.newsletter')
-
-    {{-- Footer --}}
-    @include('includes.footer') 
-
 @endsection

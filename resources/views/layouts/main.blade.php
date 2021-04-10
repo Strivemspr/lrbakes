@@ -5,10 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         {{-- CSS --}}
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
 
-        {{-- JavaSCript --}}
-        <link defer href="{{ asset('js/app.js') }}" rel="stylesheet">
+        {{-- JavaSCript --}}    
+        {{-- <script defer href="{{ asset('js/app.js') }}" rel="stylesheet"> --}}
+        <script defer type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
         
         {{-- CSRF-Token --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -22,6 +23,6 @@
         <div id="app">
             @yield('content')
         </div>
-        {{-- @include('footer') --}}
+        @include('includes.footer')
     </body>
 </html>
