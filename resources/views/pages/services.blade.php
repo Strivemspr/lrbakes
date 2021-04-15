@@ -18,7 +18,7 @@
     <div class="container flex flex-wrap justify-center sm:justify-start">
         @foreach ($service->images as $image)
         <div class="service-image transition duration-200 border-white border-4 hover:border-secondary-DEFAULT overflow-hidden">
-            <img class="h-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/', $image)}}" alt="{{$service->imageAlt}}">
+            <img class="h-full w-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/', $image)}}" alt="{{$service->imageAlt}}">
         </div>
         @endforeach
     </div>

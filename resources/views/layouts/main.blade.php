@@ -9,7 +9,7 @@
 
         {{-- JavaSCript --}}    
         <script defer type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-        
+
         {{-- CSRF-Token --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -24,4 +24,5 @@
         </div>
         @include('includes.footer')
     </body>
+
 </html>

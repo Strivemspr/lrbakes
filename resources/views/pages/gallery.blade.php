@@ -12,33 +12,15 @@
             </div>
         </div>
     </div>
-
-    <div class="container flex flex-wrap justify-center sm:justify-start">
-        <div class="service-image transition duration-200 border-white border-4 hover:border-secondary-DEFAULT overflow-hidden">
-            <img class="h-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/service1.jpg')}}" alt="Images">
-        </div>
-        <div class="service-image transition duration-200 border-white border-4 hover:border-secondary-DEFAULT overflow-hidden">
-            <img class="h-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/service1.jpg')}}" alt="Images">
-        </div>
-        <div class="service-image transition duration-200 border-white border-4 hover:border-secondary-DEFAULT overflow-hidden">
-            <img class="h-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/service1.jpg')}}" alt="Images">
-        </div>
-        <div class="service-image transition duration-200 border-white border-4 hover:border-secondary-DEFAULT overflow-hidden">
-            <img class="h-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/service1.jpg')}}" alt="Images">
-        </div>
-        <div class="service-image transition duration-200 border-white border-4 hover:border-secondary-DEFAULT overflow-hidden">
-            <img class="h-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/service1.jpg')}}" alt="Images">
-        </div>
-        <div class="service-image transition duration-200 border-white border-4 hover:border-secondary-DEFAULT overflow-hidden">
-            <img class="h-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/service1.jpg')}}" alt="Images">
-        </div>
-        <div class="service-image transition duration-200 border-white border-4 hover:border-secondary-DEFAULT overflow-hidden">
-            <img class="h-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/service1.jpg')}}" alt="Images">
-        </div>
+    
+    <div id="instagramFeed" class="container flex flex-wrap justify-center sm:justify-start">
+        {{-- <div class="service-image transition duration-200 border-white border-4 hover:border-secondary-DEFAULT overflow-hidden">
+            <img class="h-full w-full object-cover transition duration-200 transform hover:scale-110 hover:rotate-2" src="{{URL('/images/test.jpg')}}" alt="Images">
+        </div> --}}
     </div>
 
     <div class="text-center">
-        <a class="mt-4 lg:mt-6 inline-block btn btn-large" href="/contact">SHOW MORE</a>
+        <a id="loadMoreButton" class="mt-4 lg:mt-6 inline-block btn btn-large" href="">LOAD MORE</a>
     </div>
 
     {{-- FAQ --}}
