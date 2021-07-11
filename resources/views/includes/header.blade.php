@@ -36,6 +36,7 @@
         <li class="link-default mt-5 block"><a href="/home">Home</a></li>
         <li class="link-default mt-5 block"><a href="/about">About</a></li>
         <li class="link-default mt-5 block"><a href="/gallery">Gallery</a></li>
+        <li class="link-default mt-5 block"><a href="/contact">Contact</a></li>
     </ul>
 </div>
 
