@@ -1,5 +1,5 @@
 {{-- TOP HEADER  --}}
-<div class="bg-grey-light">
+<div class="bg-grey-light z-50">    
     <div class="container flex md:flex-row flex-col md:p-3 items-center p-2 md:p-3">
         <ul class="md:flex hidden md:w-1/3 w-full text-center md:order-1 order-2">
             <li class="link-default"><a href="/home">Home</a></li>
@@ -50,8 +50,8 @@
     
         <div class="md:w-1/3 md:order-2 order-1 flex w-full justify-between items-center">
             <div class="md:mx-auto flex items-center">
-                <img class="header-logo h-14 md:h-12 mr-3" src="{{URL('/images/logo.svg')}}">
-                <h1 class="text-center text-3xl italic font-black text-secondary">LR.BAKES</h1>
+                <img class="header-logo h-14 md:h-12 mr-2" src="{{URL('/images/logo.svg')}}">
+                <h1 class="text-center text-2xl md:text-3xl italic font-black text-secondary">LR.BAKES</h1>
             </div>
             <div class="md:hidden">
                 <i class="mr-2 icon icon-dark fab fa-facebook-square fa-2x"></i>

@@ -18,6 +18,7 @@ html {
 // Body
 
 .preload * {
+    transition: none !important;
     -webkit-transition: none !important; // or transition:all 0s linear; (with prefixes)
     -moz-transition: none !important;
     -ms-transition: none !important;
@@ -95,22 +96,7 @@ html {
     }
 }
 
-// Header 
-
-// .header {
-//     transition: all .3s ease-in;
-//     top: -100px;
-//     @apply bg-white;
-
-
-//     &.active {
-//         top: 0;
-//         left: 0;
-//         @apply bg-grey-light w-full z-50;
-//         // animation: topToBottom .3s ease-in-out forwards;
-//     }
-// }
-
+// Top Header 
 .navigation {
     z-index: 1000;
     pointer-events: none;
@@ -147,6 +133,7 @@ html {
     }
 }
 
+// Sticky Header
 .header {
     z-index: 600;
     position: fixed;
@@ -161,21 +148,13 @@ html {
         pointer-events: auto !important;
         top: 0;
         @apply bg-grey-light;
-        // animation: topToBottom .3s ease-in-out forwards;
     }
 }
-
-// @keyframes topToBottom {
-//     from {top: -100px;}
-//     to {top: 0;}
-// }
-
 // Home Page
 // Banner
-
 .banner {
     &:before {
-        content: " ";
+        content: "";
         @apply absolute left-0 top-0 w-full h-full block bg-black opacity-50;
     }
 }

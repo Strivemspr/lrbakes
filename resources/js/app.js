@@ -4,11 +4,11 @@ import { contactForm } from './contactForm'
 import { closeSection } from './closeSection'
 import { stickyHeader } from './stickyHeader'
 import { navigation } from './navigation'
-import { filter } from 'lodash';
 const instagramFeed = document.querySelector('#instagramFeed');
 const loadMoreButton = document.querySelector('#loadMoreButton');
 import lightbox from 'lightbox2/dist/js/lightbox';
 
+// Lightbox options
 lightbox.option({
     'disableScrolling': true,
     'wrapAround': true,
@@ -183,7 +183,7 @@ const loadMorePosts = (view, posts) => {
     }
 })();
 
-// FAQ
+// Functions
 
 FAQ();
 contactForm();

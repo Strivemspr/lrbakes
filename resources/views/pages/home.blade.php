@@ -13,7 +13,7 @@
         <div class="flex-auto"><img class="w-full" loading="lazy" src="{{URL('/images/cake6.jpg')}}" alt="Cake"></div>
 
         <div class="text-center text-white banner-text absolute w-full h-full left-0 top-0 flex justify-center items-center">
-            <div class="flex flex-col justify-center items-center">
+            <div class="flex flex-col justify-center items-center m-auto">
                 <p class="text-xl md:text-3xl text-grey-dark">A couple</p>
                 <h1 class="heading heading-line-center heading-large">That loves to bake</h1>
                 <p class="text-grey-dark w-95% max-w-md text-sm md:text-base">We specialize in baking cakes, cupcakes, desserts  and irresistible treats made to order.</p>
