@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\Subscribe;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +22,5 @@ Route::get('/about', [PagesController::class, 'about']);
 Route::get('/gallery', [PagesController::class, 'gallery']);
 Route::get('/contact', [PagesController::class, 'contact']);
 Route::get('/services/{service}', [PagesController::class, 'services']);
+Route::post('/subscribe', [Subscribe::class, 'subscribe']);
+Route::post('/send-email', [ContactController::class, 'sendMail']);

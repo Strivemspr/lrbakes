@@ -1,9 +1,22 @@
+// const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: [],
+  mode: 'jit',
+  purge: [
+    // './resources/**/*.{js,vue,blade.php}',
+    './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+    './storage/framework/views/*.php',
+    './resources/views/**/*.blade.php',
+    './resources/views/*.blade.php',
+    './resources/**/*.blade.php',
+    './resources/**/*.js',
+    './resources/**/*.vue',
+  ],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     // Rules
     fontFamily: {
@@ -14,16 +27,27 @@ module.exports = {
     container: {
       'center': true,
     },
-
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+    },
     // Extend
     extend: {
       backgroundImage: theme => ({
+        //pages background image
         'newsletter-pattern': "url('/images/newsletter.jpg')",
+        'gallery-pattern': "url('/images/gallery.jpg')",
+        'about-pattern': "url('/images/about.jpg')",
+        'contact-pattern': "url('/images/contact.jpg')",
+        'contact-details-pattern': "url('/images/contactDetails.jpg')",
+        // services
         'cakes-pattern': "url('/images/service1.jpg')",
         'cheesecakes-pattern': "url('/images/service2.jpg')",
         'cupcakes-pattern': "url('/images/service3.jpg')",
         'puligi-pattern': "url('/images/service4.jpg')",
-        'gallery-pattern': "url('/images/service4.jpg')",
+        
       }),
       spacing: {
         '102': '28rem',
@@ -52,7 +76,7 @@ module.exports = {
       white: '#FFFFFF',
       primary: {
         DEFAULT: '#8F6ADD', // purple
-        light: '#9D77EE', 
+        light: '#9D77EE',
       }, 
       secondary: {
         DEFAULT: '#FF6060',   // red
@@ -63,13 +87,14 @@ module.exports = {
         light: '#F4F4F4',
       },
       black: {
-        DEFAULT: '#3C3C3C',
+        DEFAULT: '#3c3c3c',
         light: '#ACACAC'
       }
     },
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/ui'),
+    // require('@tailwindcss/ui'),
   ],
 }
+

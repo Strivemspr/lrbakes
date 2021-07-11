@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        // Spatie\Newsletter\NewsletterServiceProvider::class,
         /*
          * Application Service Providers...
          */

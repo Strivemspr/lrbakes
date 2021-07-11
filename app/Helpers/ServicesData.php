@@ -13,7 +13,7 @@ class ServicesData
                 'service' => 'cakes',
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis.',
                 'image' => '/images/service1.jpg',
-                'images' => ['service1.jpg', 'service2.jpg', 'service3.jpg', 'service4.jpg'],
+                'images' => ['service1.jpg', 'service2.jpg', 'service3.jpg', 'service4.jpg', 'newsletter.jpg'],
                 'imageAlt' => 'Cake service',
             ],
             (object) [

@@ -12,12 +12,15 @@ const tailwindcss = require('tailwindcss');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css')
-    .options({
-        processCssUrls: false,
-        postCss: [
-          tailwindcss('./tailwind.config.js'),
-        ]
-    })
-    .sourceMaps();
+mix.js('resources/js/app.js', 'public/js').sass('resources/sass/app.scss', 'public/css').options({
+    processCssUrls: false,
+    postCss: [
+      // tailwindcss('./tailwind.config.js')
+      // require('postcss'),
+      require('tailwindcss'),
+      require('postcss-import'),
+      require('autoprefixer'),
+      // require('@tailwindcss/jit'),
+    ],
+  })
+  .sourceMaps();

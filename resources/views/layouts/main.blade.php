@@ -17,7 +17,7 @@
         <title>{{ config('app.name', 'LrBakes') }} | @yield('title')</title>
 
     </head>
-    <body class="antialiased">
+    <body class="antialiased preload">
         @include('includes.header')
         <div id="app">
             @yield('content')
